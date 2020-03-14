@@ -1,0 +1,50 @@
+{
+  "name": "ssrkusy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "build:prod": "BABEL_ENV=production webpack --config webpack.prod.js",
+    "watch": "webpack -w --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "highlight.js": "^9.18.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-block-image": "0.0.3",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-custom-block": "^0.1.1",
+    "markdown-it-front-matter": "^0.1.2",
+    "markdown-it-kbd": "^2.0.0",
+    "markdown-it-toc-and-anchor": "^4.2.0",
+    "vue": "2.6.10",
+    "vue-router": "^3.1.6",
+    "vue-server-renderer": "^2.6.11",
+    "yaml": "^1.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-inline-dotenv": "^1.5.0",
+    "babel-plugin-transform-define": "^2.0.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "raw-loader": "^4.0.0",
+    "sass-loader": "^8.0.2",
+    "sass-resources-loader": "^2.0.1",
+    "vue-loader": "^15.9.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2"
+  }
+}

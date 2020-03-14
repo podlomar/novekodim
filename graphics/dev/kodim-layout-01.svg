@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3840"
+   height="2160"
+   viewBox="0 0 3840 2160"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="nove-kodim-layout.svg"
+   inkscape:export-filename="/home/podlomar/03-lesson.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect5934"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="m 249.75,-609.72304 h 70"
+       bendpath2="m 335,-610.33335 -15.25,50.61033"
+       bendpath3="m 249.75,-559.72302 h 70"
+       bendpath4="m 235,-610.33335 14.75,50.61033"
+       bendpath2-nodetypes="cc"
+       bendpath4-nodetypes="cc" />
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect2226"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="m 250,-610.33337 h 70"
+       bendpath2="m 320,-610.33337 v 50.00002"
+       bendpath3="m 250,-560.33335 h 70"
+       bendpath4="m 250,-610.33337 v 50.00002" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath232">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect234"
+         width="280"
+         height="160"
+         x="1780"
+         y="559.66663" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath256">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect258"
+         width="280"
+         height="160"
+         x="2100"
+         y="559.66663" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath256-3">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect258-9"
+         width="280"
+         height="160"
+         x="2100"
+         y="559.66663" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8571"
+       x="-0.041999999"
+       width="1.084"
+       y="-0.031500001"
+       height="1.063">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.25"
+         id="feGaussianBlur8573" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath232-1">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect234-0"
+         width="280"
+         height="160"
+         x="1780"
+         y="559.66663" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1456">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1720,160 40,-80 h 280 v 240 h -200 l 120,80 -320,40 -160,-40 -40,-40 V 160 c 140.0787,-1.8825 192.6087,-66.263304 280,0 z"
+         id="path1458"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccc" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath232-1-4">
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect234-0-1"
+         width="280"
+         height="160"
+         x="1780"
+         y="559.66663" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8571-4"
+       x="-0.041999999"
+       width="1.084"
+       y="-0.031500001"
+       height="1.063">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.25"
+         id="feGaussianBlur8573-7" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter8571-4-0"
+       x="-0.041999999"
+       width="1.084"
+       y="-0.031500001"
+       height="1.063">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.25"
+         id="feGaussianBlur8573-7-2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="1814.1274"
+     inkscape:cy="1494.5191"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="true"
+     units="px"
+     inkscape:snap-grids="true"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-nodes="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="665"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-text-baseline="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid10" />
+    <sodipodi:guide
+       position="1440,1139.4521"
+       orientation="1,0"
+       id="guide142"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="2400,905.09668"
+       orientation="1,0"
+       id="guide144"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-19.66665)"
+     style="display:inline;opacity:0.98999999"
+     sodipodi:insensitive="true">
+    <g
+       id="g6903"
+       transform="translate(-6480,-641.39863)">
+      <g
+         id="g6117">
+        <g
+           transform="matrix(1.1124892,0,0,0.76128326,-187.21879,-109.27314)"
+           id="g6044">
+          <g
+             id="g6040"
+             transform="translate(0.42516811,2.4356696)">
+            <path
+               inkscape:connector-curvature="0"
+               id="path6034"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 262.68898,-484.66297 q 1.70702,0.0466 2.57761,0.98002 0.90129,0.9286 1.21012,2.89454 l 0.54529,3.47111 q 0.20266,1.29015 0.66296,1.81588 0.46031,0.52573 1.44327,0.37132 l 2.85677,-0.44878 0.46325,2.94892 -3.19466,0.50185 q -2.7646,0.43429 -4.02793,-0.5948 -1.2326,-1.03393 -1.58969,-3.30705 l -0.70935,-4.51553 q -0.20267,-1.29013 -0.70333,-1.87248 -0.50549,-0.61307 -1.45775,-0.46347 l -1.65876,0.26057 -0.46325,-2.9489 1.65876,-0.26058 q 0.95226,-0.14959 1.25025,-0.8574 0.29317,-0.73851 0.0954,-1.99795 l -0.71418,-4.54624 q -0.35709,-2.27312 0.49912,-3.63518 0.88693,-1.36689 3.65154,-1.80118 l 3.19465,-0.50186 0.46325,2.94892 -2.85676,0.44876 q -0.98297,0.15442 -1.2599,0.79597 -0.28175,0.61083 -0.0743,1.9317 l 0.54527,3.4711 q 0.30884,1.96595 -0.26431,3.12617 -0.54246,1.15538 -2.14331,1.78457 z" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path6036"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 284.17423,-473.67456 h -3.9801 l 8.70646,-26.86567 h 3.91792 z" />
+            <path
+               d="m 308.48722,-484.66297 q -1.70702,0.0466 -2.57761,0.98002 -0.90129,0.9286 -1.21012,2.89454 l -0.54528,3.47111 q -0.20267,1.29015 -0.66297,1.81588 -0.4603,0.52573 -1.44327,0.37132 l -2.85676,-0.44878 -0.46325,2.94892 3.19465,0.50185 q 2.7646,0.43429 4.02793,-0.5948 1.23261,-1.03393 1.58969,-3.30705 l 0.70935,-4.51553 q 0.20267,-1.29013 0.70334,-1.87248 0.50548,-0.61307 1.45774,-0.46347 l 1.65877,0.26057 0.46325,-2.9489 -1.65877,-0.26058 q -0.95226,-0.14959 -1.25025,-0.8574 -0.29317,-0.73851 -0.0953,-1.99795 l 0.71417,-4.54624 q 0.35709,-2.27312 -0.49912,-3.63518 -0.88693,-1.36689 -3.65153,-1.80118 l -3.19466,-0.50186 -0.46325,2.94892 2.85677,0.44876 q 0.98296,0.15442 1.25989,0.79597 0.28175,0.61083 0.0743,1.9317 l -0.54527,3.4711 q -0.30884,1.96595 0.26431,3.12617 0.54246,1.15538 2.14332,1.78457 z"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="path6038"
+               inkscape:connector-curvature="0" />
+          </g>
+          <path
+             style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:7.13952494;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 247.05443,-509.74484 h 77.9489 c 2.76818,0 5.62374,2.39624 4.99672,5.2047 l -9.99344,44.76058 c -0.62704,2.80845 -2.22855,5.20471 -4.99672,5.20471 h -59.9607 c -2.76817,0 -4.49041,-2.36995 -4.99672,-5.20471 l -7.99475,-44.76058 c -0.50632,-2.83476 2.22853,-5.2047 4.99671,-5.2047 z"
+             id="path6042"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="sssssssss" />
+        </g>
+        <rect
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6046"
+           width="15.000005"
+           height="14.999993"
+           x="94.999992"
+           y="-450.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-450.33334"
+           x="112.99999"
+           height="14.999993"
+           width="15.000005"
+           id="rect6075"
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6077"
+           width="15.000005"
+           height="14.999993"
+           x="131"
+           y="-450.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-450.33334"
+           x="149"
+           height="14.999993"
+           width="15.000005"
+           id="rect6079"
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-432.33334"
+           x="95"
+           height="14.999993"
+           width="15.000005"
+           id="rect6081"
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6083"
+           width="15.000005"
+           height="14.999993"
+           x="112.99999"
+           y="-432.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-432.33334"
+           x="131"
+           height="14.999993"
+           width="15.000005"
+           id="rect6085"
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6087"
+           width="15.000005"
+           height="14.999993"
+           x="149"
+           y="-432.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path6149"
+         d="m 93,-487.33335 h 40"
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6151"
+         d="m 102,-481.33335 h 20"
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6155"
+         d="m 103,-475.33335 h 41"
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6157"
+         d="m 99,-469.33335 h 9"
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6159"
+         d="m 101,-463.33335 h 30"
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g7077"
+       transform="translate(-6480,-641.39863)">
+      <g
+         transform="rotate(-45,147.37083,-697.1678)"
+         id="g6987">
+        <g
+           id="g6975">
+          <g
+             id="g6957"
+             transform="matrix(1.1124892,0,0,0.76128326,-187.21879,-109.27314)">
+            <g
+               transform="translate(0.42516811,2.4356696)"
+               id="g6953">
+              <path
+                 d="m 262.68898,-484.66297 q 1.70702,0.0466 2.57761,0.98002 0.90129,0.9286 1.21012,2.89454 l 0.54529,3.47111 q 0.20266,1.29015 0.66296,1.81588 0.46031,0.52573 1.44327,0.37132 l 2.85677,-0.44878 0.46325,2.94892 -3.19466,0.50185 q -2.7646,0.43429 -4.02793,-0.5948 -1.2326,-1.03393 -1.58969,-3.30705 l -0.70935,-4.51553 q -0.20267,-1.29013 -0.70333,-1.87248 -0.50549,-0.61307 -1.45775,-0.46347 l -1.65876,0.26057 -0.46325,-2.9489 1.65876,-0.26058 q 0.95226,-0.14959 1.25025,-0.8574 0.29317,-0.73851 0.0954,-1.99795 l -0.71418,-4.54624 q -0.35709,-2.27312 0.49912,-3.63518 0.88693,-1.36689 3.65154,-1.80118 l 3.19465,-0.50186 0.46325,2.94892 -2.85676,0.44876 q -0.98297,0.15442 -1.2599,0.79597 -0.28175,0.61083 -0.0743,1.9317 l 0.54527,3.4711 q 0.30884,1.96595 -0.26431,3.12617 -0.54246,1.15538 -2.14331,1.78457 z"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 id="path6947"
+                 inkscape:connector-curvature="0" />
+              <path
+                 d="m 284.17423,-473.67456 h -3.9801 l 8.70646,-26.86567 h 3.91792 z"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 id="path6949"
+                 inkscape:connector-curvature="0" />
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path6951"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 308.48722,-484.66297 q -1.70702,0.0466 -2.57761,0.98002 -0.90129,0.9286 -1.21012,2.89454 l -0.54528,3.47111 q -0.20267,1.29015 -0.66297,1.81588 -0.4603,0.52573 -1.44327,0.37132 l -2.85676,-0.44878 -0.46325,2.94892 3.19465,0.50185 q 2.7646,0.43429 4.02793,-0.5948 1.23261,-1.03393 1.58969,-3.30705 l 0.70935,-4.51553 q 0.20267,-1.29013 0.70334,-1.87248 0.50548,-0.61307 1.45774,-0.46347 l 1.65877,0.26057 0.46325,-2.9489 -1.65877,-0.26058 q -0.95226,-0.14959 -1.25025,-0.8574 -0.29317,-0.73851 -0.0953,-1.99795 l 0.71417,-4.54624 q 0.35709,-2.27312 -0.49912,-3.63518 -0.88693,-1.36689 -3.65153,-1.80118 l -3.19466,-0.50186 -0.46325,2.94892 2.85677,0.44876 q 0.98296,0.15442 1.25989,0.79597 0.28175,0.61083 0.0743,1.9317 l -0.54527,3.4711 q -0.30884,1.96595 0.26431,3.12617 0.54246,1.15538 2.14332,1.78457 z" />
+            </g>
+            <path
+               sodipodi:nodetypes="sssssssss"
+               inkscape:connector-curvature="0"
+               id="path6955"
+               d="m 247.05443,-509.74484 h 77.9489 c 2.76818,0 5.62374,2.39624 4.99672,5.2047 l -9.99344,44.76058 c -0.62704,2.80845 -2.22855,5.20471 -4.99672,5.20471 h -59.9607 c -2.76817,0 -4.49041,-2.36995 -4.99672,-5.20471 l -7.99475,-44.76058 c -0.50632,-2.83476 2.22853,-5.2047 4.99671,-5.2047 z"
+               style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:7.13952494;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          </g>
+          <rect
+             rx="2.9999948"
+             ry="2.9999936"
+             y="-450.33334"
+             x="94.999992"
+             height="14.999993"
+             width="15.000005"
+             id="rect6959"
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect6961"
+             width="15.000005"
+             height="14.999993"
+             x="112.99999"
+             y="-450.33334"
+             ry="2.9999936"
+             rx="2.9999948" />
+          <rect
+             rx="2.9999948"
+             ry="2.9999936"
+             y="-450.33334"
+             x="131"
+             height="14.999993"
+             width="15.000005"
+             id="rect6963"
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect6965"
+             width="15.000005"
+             height="14.999993"
+             x="149"
+             y="-450.33334"
+             ry="2.9999936"
+             rx="2.9999948" />
+          <rect
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect6967"
+             width="15.000005"
+             height="14.999993"
+             x="95"
+             y="-432.33334"
+             ry="2.9999936"
+             rx="2.9999948" />
+          <rect
+             rx="2.9999948"
+             ry="2.9999936"
+             y="-432.33334"
+             x="112.99999"
+             height="14.999993"
+             width="15.000005"
+             id="rect6969"
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect6971"
+             width="15.000005"
+             height="14.999993"
+             x="131"
+             y="-432.33334"
+             ry="2.9999936"
+             rx="2.9999948" />
+          <rect
+             rx="2.9999948"
+             ry="2.9999936"
+             y="-432.33334"
+             x="149"
+             height="14.999993"
+             width="15.000005"
+             id="rect6973"
+             style="opacity:1;fill:#e09100;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 93,-487.33335 h 40"
+           id="path6977"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 102,-481.33335 h 20"
+           id="path6979"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 103,-475.33335 h 41"
+           id="path6981"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 99,-469.33335 h 9"
+           id="path6983"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 101,-463.33335 h 30"
+           id="path6985"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6989"
+         width="120"
+         height="120"
+         x="240"
+         y="-580.33337"
+         rx="0"
+         ry="0" />
+    </g>
+    <rect
+       y="19.666651"
+       x="0"
+       height="2160"
+       width="3840"
+       id="rect8669"
+       style="display:inline;opacity:1;fill:#dce7f4;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.96898651px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40576541"
+       x="1504.8352"
+       y="39.582558"
+       id="text1817"
+       transform="translate(0,19.66665)"><tspan
+         sodipodi:role="line"
+         id="tspan1815"
+         x="1504.8352"
+         y="39.582558"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';stroke-width:0.40576541">Kódím.cz</tspan></text>
+    <g
+       style="display:inline;opacity:0.98999999"
+       transform="matrix(0.20859539,-0.20859539,0.20859539,0.20859539,1546.3536,173.66764)"
+       id="g6945">
+      <g
+         id="g6933">
+        <g
+           id="g6915"
+           transform="matrix(1.1124892,0,0,0.76128326,-187.21879,-109.27314)">
+          <g
+             transform="translate(0.42516811,2.4356696)"
+             id="g6911">
+            <path
+               d="m 262.68898,-484.66297 q 1.70702,0.0466 2.57761,0.98002 0.90129,0.9286 1.21012,2.89454 l 0.54529,3.47111 q 0.20266,1.29015 0.66296,1.81588 0.46031,0.52573 1.44327,0.37132 l 2.85677,-0.44878 0.46325,2.94892 -3.19466,0.50185 q -2.7646,0.43429 -4.02793,-0.5948 -1.2326,-1.03393 -1.58969,-3.30705 l -0.70935,-4.51553 q -0.20267,-1.29013 -0.70333,-1.87248 -0.50549,-0.61307 -1.45775,-0.46347 l -1.65876,0.26057 -0.46325,-2.9489 1.65876,-0.26058 q 0.95226,-0.14959 1.25025,-0.8574 0.29317,-0.73851 0.0954,-1.99795 l -0.71418,-4.54624 q -0.35709,-2.27312 0.49912,-3.63518 0.88693,-1.36689 3.65154,-1.80118 l 3.19465,-0.50186 0.46325,2.94892 -2.85676,0.44876 q -0.98297,0.15442 -1.2599,0.79597 -0.28175,0.61083 -0.0743,1.9317 l 0.54527,3.4711 q 0.30884,1.96595 -0.26431,3.12617 -0.54246,1.15538 -2.14331,1.78457 z"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="path6905"
+               inkscape:connector-curvature="0" />
+            <path
+               d="m 284.17423,-473.67456 h -3.9801 l 8.70646,-26.86567 h 3.91792 z"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="path6907"
+               inkscape:connector-curvature="0" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path6909"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';text-align:center;letter-spacing:0.01px;word-spacing:0px;text-anchor:middle;fill:#feffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.05485344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 308.48722,-484.66297 q -1.70702,0.0466 -2.57761,0.98002 -0.90129,0.9286 -1.21012,2.89454 l -0.54528,3.47111 q -0.20267,1.29015 -0.66297,1.81588 -0.4603,0.52573 -1.44327,0.37132 l -2.85676,-0.44878 -0.46325,2.94892 3.19465,0.50185 q 2.7646,0.43429 4.02793,-0.5948 1.23261,-1.03393 1.58969,-3.30705 l 0.70935,-4.51553 q 0.20267,-1.29013 0.70334,-1.87248 0.50548,-0.61307 1.45774,-0.46347 l 1.65877,0.26057 0.46325,-2.9489 -1.65877,-0.26058 q -0.95226,-0.14959 -1.25025,-0.8574 -0.29317,-0.73851 -0.0953,-1.99795 l 0.71417,-4.54624 q 0.35709,-2.27312 -0.49912,-3.63518 -0.88693,-1.36689 -3.65153,-1.80118 l -3.19466,-0.50186 -0.46325,2.94892 2.85677,0.44876 q 0.98296,0.15442 1.25989,0.79597 0.28175,0.61083 0.0743,1.9317 l -0.54527,3.4711 q -0.30884,1.96595 0.26431,3.12617 0.54246,1.15538 2.14332,1.78457 z" />
+          </g>
+          <path
+             sodipodi:nodetypes="sssssssss"
+             inkscape:connector-curvature="0"
+             id="path6913"
+             d="m 247.05443,-509.74484 h 77.9489 c 2.76818,0 5.62374,2.39624 4.99672,5.2047 l -9.99344,44.76058 c -0.62704,2.80845 -2.22855,5.20471 -4.99672,5.20471 h -59.9607 c -2.76817,0 -4.49041,-2.36995 -4.99672,-5.20471 l -7.99475,-44.76058 c -0.50632,-2.83476 2.22853,-5.2047 4.99671,-5.2047 z"
+             style="opacity:1;fill:#3684f1;fill-opacity:1;stroke:none;stroke-width:7.13952494;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-450.33334"
+           x="94.999992"
+           height="14.999993"
+           width="15.000005"
+           id="rect6917"
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6919"
+           width="15.000005"
+           height="14.999993"
+           x="112.99999"
+           y="-450.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-450.33334"
+           x="131"
+           height="14.999993"
+           width="15.000005"
+           id="rect6921"
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6923"
+           width="15.000005"
+           height="14.999993"
+           x="149"
+           y="-450.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6925"
+           width="15.000005"
+           height="14.999993"
+           x="95"
+           y="-432.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-432.33334"
+           x="112.99999"
+           height="14.999993"
+           width="15.000005"
+           id="rect6927"
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6929"
+           width="15.000005"
+           height="14.999993"
+           x="131"
+           y="-432.33334"
+           ry="2.9999936"
+           rx="2.9999948" />
+        <rect
+           rx="2.9999948"
+           ry="2.9999936"
+           y="-432.33334"
+           x="149"
+           height="14.999993"
+           width="15.000005"
+           id="rect6931"
+           style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <path
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 93,-487.33335 h 40"
+         id="path6935"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 102,-481.33335 h 20"
+         id="path6937"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 103,-475.33335 h 41"
+         id="path6939"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 99,-469.33335 h 9"
+         id="path6941"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#f9ffff;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 101,-463.33335 h 30"
+         id="path6943"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       id="text177"
+       y="59.666649"
+       x="1984"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
+         y="59.666649"
+         x="1984"
+         id="tspan175"
+         sodipodi:role="line">Online kurzy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none"
+       x="2113.3887"
+       y="59.666649"
+       id="text181"><tspan
+         sodipodi:role="line"
+         id="tspan179"
+         x="2113.3887"
+         y="59.666649"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'">Czechitas</tspan></text>
+    <text
+       id="text185"
+       y="59.666649"
+       x="2216.7708"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
+         y="59.666649"
+         x="2216.7708"
+         id="tspan183"
+         sodipodi:role="line">Blog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none"
+       x="2279.9998"
+       y="59.666649"
+       id="text189"><tspan
+         sodipodi:role="line"
+         id="tspan187"
+         x="2279.9998"
+         y="59.666649"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'">Přihlásit se</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Home"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#f39530;fill-opacity:1;stroke:none"
+       x="1460"
+       y="960"
+       id="text8887"><tspan
+         sodipodi:role="line"
+         id="tspan8885"
+         x="1460"
+         y="960"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy';text-align:start;text-anchor:start;fill:#f39530;fill-opacity:1">Online kurzy</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#00b9b9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter8571)"
+       id="rect8009"
+       width="343.78622"
+       height="466.56705"
+       x="127.10146"
+       y="291.32422"
+       transform="matrix(0.81445959,0,0,0.81445959,1676.481,682.72819)" />
+    <flowRoot
+       transform="translate(-580,886.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot213"
+       xml:space="preserve"><flowRegion
+         id="flowRegion209"><rect
+           y="100"
+           x="2040"
+           height="253.95"
+           width="280"
+           id="rect207" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara211">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <rect
+       y="920"
+       x="1780"
+       height="380.00003"
+       width="280"
+       id="rect215"
+       style="display:inline;opacity:1;fill:#f5ffff;fill-opacity:1;stroke:none;stroke-width:2.44337869;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text8613"
+       y="1130"
+       x="1810"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81445956"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;stroke-width:0.81445956"
+         y="1130"
+         x="1810"
+         id="tspan8611"
+         sodipodi:role="line">Úvod do programování</tspan></text>
+    <image
+       sodipodi:absref="/home/podlomar/work/projects/nove.kodim.cz/graphics/mydev/free-flat01.jpg"
+       xlink:href="free-flat01.jpg"
+       y="559.66663"
+       x="1780"
+       id="image8004"
+       preserveAspectRatio="none"
+       height="195.80421"
+       width="280"
+       clip-path="url(#clipPath232-1)"
+       style="display:inline;opacity:0.98999999"
+       transform="translate(0,360.33335)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot228"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-230,1056.05)"><flowRegion
+         id="flowRegion224"><rect
+           id="rect222"
+           width="220"
+           height="123.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <rect
+       transform="matrix(0.81445959,0,0,0.81445959,1996.481,682.72819)"
+       y="291.32422"
+       x="127.10146"
+       height="466.56705"
+       width="343.78622"
+       id="rect236"
+       style="display:inline;opacity:1;fill:#00b9b9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter8571)" />
+    <rect
+       style="display:inline;opacity:1;fill:#f5ffff;fill-opacity:1;stroke:none;stroke-width:2.44337869;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect238"
+       width="280"
+       height="380.00003"
+       x="2100"
+       y="920" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81445956"
+       x="2130"
+       y="1130"
+       id="text242"><tspan
+         sodipodi:role="line"
+         id="tspan240"
+         x="2130"
+         y="1130"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;stroke-width:0.81445956">Jak funguje internet</tspan></text>
+    <image
+       sodipodi:absref="/home/podlomar/work/projects/nove.kodim.cz/graphics/mydev/free-flat02.jpg"
+       xlink:href="free-flat02.jpg"
+       y="559.66663"
+       x="2100"
+       id="image8876"
+       preserveAspectRatio="none"
+       height="195.60864"
+       width="280"
+       clip-path="url(#clipPath256-3)"
+       style="display:inline;opacity:0.98999999"
+       transform="translate(0,360.33335)" />
+    <flowRoot
+       transform="translate(90,1056.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot252"
+       xml:space="preserve"><flowRegion
+         id="flowRegion248"><rect
+           y="100"
+           x="2040"
+           height="123.95"
+           width="220"
+           id="rect246" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara250">Fusce et diam consequat, semper arcu at, facilisis massa. Proin a sapien vitae arcu vestibulum luctus commodo ac est. Aliquam erat volutpat. Integer massa urna, malesuada non aliquet eget, convallis vitae metus. In et tincidunt leo. In lacinia nec dolor vitae ullamcorper.</flowPara></flowRoot>    <rect
+       transform="matrix(0.81445959,0,0,0.81445959,1676.481,1102.7282)"
+       y="291.32422"
+       x="127.10146"
+       height="466.56705"
+       width="343.78622"
+       id="rect1600"
+       style="display:inline;opacity:1;fill:#00b9b9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter8571)" />
+    <rect
+       style="display:inline;opacity:1;fill:#f5ffff;fill-opacity:1;stroke:none;stroke-width:2.44337869;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1610"
+       width="280"
+       height="380.00003"
+       x="1780"
+       y="1340" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81445956"
+       x="1810"
+       y="1550"
+       id="text1614"><tspan
+         sodipodi:role="line"
+         id="tspan1612"
+         x="1810"
+         y="1550"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;stroke-width:0.81445956">Úvod do JavaScriptu</tspan></text>
+    <image
+       sodipodi:absref="/home/podlomar/work/projects/nove.kodim.cz/graphics/mydev/free-flat01.jpg"
+       xlink:href="free-flat01.jpg"
+       transform="translate(0,780.33335)"
+       style="display:inline;opacity:0.98999999"
+       clip-path="url(#clipPath232-1)"
+       width="280"
+       height="195.80421"
+       preserveAspectRatio="none"
+       id="image1616"
+       x="1780"
+       y="559.66663" />
+    <flowRoot
+       transform="translate(-230,1476.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1624"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1620"><rect
+           y="100"
+           x="2040"
+           height="123.95"
+           width="220"
+           id="rect1618" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara1622">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <rect
+       style="display:inline;opacity:1;fill:#00b9b9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter8571)"
+       id="rect1626"
+       width="343.78622"
+       height="466.56705"
+       x="127.10146"
+       y="291.32422"
+       transform="matrix(0.81445959,0,0,0.81445959,1996.481,1102.7282)" />
+    <rect
+       y="1340"
+       x="2100"
+       height="380.00003"
+       width="280"
+       id="rect1628"
+       style="display:inline;opacity:1;fill:#f5ffff;fill-opacity:1;stroke:none;stroke-width:2.44337869;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text1632"
+       y="1550"
+       x="2130"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81445956"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;stroke-width:0.81445956"
+         y="1550"
+         x="2130"
+         id="tspan1630"
+         sodipodi:role="line">Datová analýza v </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;stroke-width:0.81445956"
+         y="1573.5369"
+         x="2130"
+         sodipodi:role="line"
+         id="tspan3271">Pytnonu</tspan></text>
+    <image
+       sodipodi:absref="/home/podlomar/work/projects/nove.kodim.cz/graphics/mydev/free-flat02.jpg"
+       xlink:href="free-flat02.jpg"
+       transform="translate(0,780.33335)"
+       style="display:inline;opacity:0.98999999"
+       clip-path="url(#clipPath256-3)"
+       width="280"
+       height="195.60864"
+       preserveAspectRatio="none"
+       id="image1634"
+       x="2100"
+       y="559.66663" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1642"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(90,1500.05)"><flowRegion
+         id="flowRegion1638"><rect
+           id="rect1636"
+           width="220"
+           height="123.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara1640"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Fusce et diam consequat, semper arcu at, facilisis massa. Proin a sapien vitae arcu vestibulum luctus </flowPara></flowRoot>    <text
+       id="text2872"
+       y="1380"
+       x="1460"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#f39530;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy';text-align:start;text-anchor:start;fill:#f39530;fill-opacity:1"
+         y="1380"
+         x="1460"
+         id="tspan2870"
+         sodipodi:role="line">Czechitas</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2880"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-580,1306.05)"><flowRegion
+         id="flowRegion2876"><rect
+           id="rect2874"
+           width="280"
+           height="253.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara2878"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="1470"
+       y="1900"
+       id="text3277"><tspan
+         sodipodi:role="line"
+         id="tspan3275"
+         x="1470"
+         y="1900"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Martin Podloucký</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3285"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="translate(-570.69,1897.18)"><flowRegion
+         id="flowRegion3281"
+         style="fill:#ffffff;fill-opacity:1"><rect
+           id="rect3279"
+           width="220"
+           height="123.95"
+           x="2040"
+           y="100"
+           style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3283"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.46455383px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.83538365"
+       x="1460"
+       y="160"
+       id="text1817-6"><tspan
+         sodipodi:role="line"
+         id="tspan1815-5"
+         x="1460"
+         y="160"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';stroke-width:0.83538365">Kódím.cz</tspan></text>
+    <flowRoot
+       transform="translate(-575.47729,84.263872)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3439"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3435"><rect
+           y="100"
+           x="2040"
+           height="135.94998"
+           width="302"
+           id="rect3433" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara3437">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <image
+       style="display:inline;opacity:0.98999999"
+       sodipodi:absref="/home/podlomar/work/projects/nove.kodim.cz/graphics/temp/flat-vector.png"
+       y="80"
+       x="1800"
+       id="image1668"
+       xlink:href="file:///home/podlomar/work/projects/nove.kodim.cz/graphics/temp/flat-vector.png"
+       preserveAspectRatio="none"
+       height="327.64044"
+       width="600" />
+    <rect
+       style="opacity:1;fill:#ffec88;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1686"
+       width="3840"
+       height="360"
+       x="0"
+       y="480" />
+    <text
+       id="text1920"
+       y="709.82935"
+       x="2101.4807"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
+         y="709.82935"
+         x="2101.4807"
+         id="tspan1918"
+         sodipodi:role="line">Znalosti</tspan></text>
+    <g
+       id="g1978">
+      <path
+         id="path1926"
+         d="m 2530,320 v 25 a 30,15 0 0 0 30,15 30,15 0 0 0 30,-15 v -25 z"
+         style="opacity:1;fill:#74625e;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path1945"
+         d="m 2530,320 v 12 c 9,6 19,10 30,12 11,-2 21,-6 30,-12 v -12 z"
+         style="fill:#594b48;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1924"
+         d="m 2560,300 -50,20 50,20 z"
+         style="fill:#907b77;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path1939"
+         d="m 2580,320 v 36.1582 A 30,15 0 0 0 2590,345 v -25 z"
+         style="opacity:1;fill:#594b48;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#74625e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2560,300 50,20 -50,20 z"
+         id="path1935"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1967"
+         d="m 2560,320 25,10 v 35"
+         style="fill:none;stroke:#d23c3c;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1969"
+         d="m 2585,357 -8,13 h 16 z"
+         style="fill:#d23c3c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1994"
+       transform="matrix(1.4,0,0,1.4,-1434,140)">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#74625e;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2530,320 v 25 a 30,15 0 0 0 30,15 30,15 0 0 0 30,-15 v -25 z"
+         id="path1980" />
+      <path
+         style="fill:#907b77;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2560,300 -50,20 50,20 z"
+         id="path1984"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path1988"
+         d="m 2560,300 50,20 -50,20 z"
+         style="fill:#74625e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#d23c3c;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2560,320 25,10 v 35"
+         id="path1990"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#d23c3c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2585,357 -8,13 h 16 z"
+         id="path1992"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1996"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,10)"><flowRegion
+         id="flowRegion1998"><rect
+           id="rect2000"
+           width="251.9068"
+           height="96.122322"
+           x="2029.6174"
+           y="721.47961" /></flowRegion><flowPara
+         id="flowPara2002"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:Montserrat;-inkscape-font-specification:Montserrat">Znalosti a praktické dovednosti, které profesionální progamátoři používají každý den.</flowPara></flowRoot>    <g
+       id="g2059">
+      <path
+         sodipodi:nodetypes="cscc"
+         inkscape:connector-curvature="0"
+         id="path2010"
+         d="m 2742,324 c 0,40 -12.67,53 -32,53 -19.33,0 -32,-13 -32,-53 12,0 52,0 64,0 z"
+         style="opacity:1;fill:#fcba8f;fill-opacity:1;stroke:#fcba8f;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="czzzcczzcc"
+         inkscape:connector-curvature="0"
+         id="path2037"
+         d="m 2680,330 c 0,15 10,36 15,31 5,-5 9,-7 15,-7 6,0 10.9785,1.97035 15,7 4.0215,5.02965 15,-16 15,-31 h 5 c 0,0 -1.523,40.97454 -15,50 -13.477,9.02546 -27.0888,10.77542 -40,0 -12.9112,-10.77542 -15,-50 -15,-50 z"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="czcczcc"
+         inkscape:connector-curvature="0"
+         id="path2008"
+         d="m 2660,320 c 0,0 10,20 50,20 40,0 50,-20 50,-20 h -10 c 0,0 0,-40 -40,-40 -40,0 -40,40 -40,40 z"
+         style="fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccsccscc"
+         inkscape:connector-curvature="0"
+         id="path2027"
+         d="m 2698.041,281.38867 c -2.3284,0.58556 -4.4641,1.33892 -6.4219,2.23047 1.9376,1.70818 3.752,3.47429 5.17,5.17578 C 2698.9229,291.35555 2700,293.75 2700,295 v 31 h 6 v -31 c 0,-3.75 -2.0479,-6.98055 -4.6016,-10.04492 -1.0174,-1.22095 -2.1649,-2.40653 -3.3574,-3.56641 z"
+         style="fill:#faffff;fill-opacity:1;stroke:#fdffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccsccsccc"
+         inkscape:connector-curvature="0"
+         id="path2032"
+         d="m 2721.959,281.38867 c -1.1925,1.15988 -2.34,2.34546 -3.3574,3.56641 C 2716.0479,288.01945 2714,291.25 2714,295 v 31 h 6 v -31 c 0,-1.25 1.0771,-3.64445 3.2109,-6.20508 1.418,-1.70149 3.2324,-3.4676 5.17,-5.17578 -1.9578,-0.89155 -4.0935,-1.64491 -6.4219,-2.23047 z"
+         style="fill:#faffff;fill-opacity:1;stroke:#fdffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="czcc"
+         inkscape:connector-curvature="0"
+         id="path2046"
+         d="m 2700,362 c 0,0 2,8 10,8 8,0 10,-8 10,-8 -7,2 -13,2 -20,0 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2073"
+       transform="matrix(1.1,0,0,1.0366475,-1106,259.80131)">
+      <path
+         style="opacity:1;fill:#fcba8f;fill-opacity:1;stroke:#fcba8f;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 2742,324 c 0,40 -12.67,53 -32,53 -19.33,0 -32,-13 -32,-53 12,0 52,0 64,0 z"
+         id="path2061"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscc" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2680,330 c 0,15 10,36 15,31 5,-5 9,-7 15,-7 6,0 10.9785,1.97035 15,7 4.0215,5.02965 15,-16 15,-31 h 5 c 0,0 -1.523,40.97454 -15,50 -13.477,9.02546 -27.0888,10.77542 -40,0 -12.9112,-10.77542 -15,-50 -15,-50 z"
+         id="path2063"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="czzzcczzcc" />
+      <path
+         style="fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2660,320 c 0,0 10,20 50,20 40,0 50,-20 50,-20 h -10 c 0,0 0,-40 -40,-40 -40,0 -40,40 -40,40 z"
+         id="path2065"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="czcczcc" />
+      <path
+         style="fill:#faffff;fill-opacity:1;stroke:#fdffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         d="m 2698.041,281.38867 c -2.3284,0.58556 -4.4641,1.33892 -6.4219,2.23047 1.9376,1.70818 3.752,3.47429 5.17,5.17578 C 2698.9229,291.35555 2700,293.75 2700,295 v 31 h 6 v -31 c 0,-3.75 -2.0479,-6.98055 -4.6016,-10.04492 -1.0174,-1.22095 -2.1649,-2.40653 -3.3574,-3.56641 z"
+         id="path2067"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccsccscc" />
+      <path
+         style="fill:#faffff;fill-opacity:1;stroke:#fdffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         d="m 2721.959,281.38867 c -1.1925,1.15988 -2.34,2.34546 -3.3574,3.56641 C 2716.0479,288.01945 2714,291.25 2714,295 v 31 h 6 v -31 c 0,-1.25 1.0771,-3.64445 3.2109,-6.20508 1.418,-1.70149 3.2324,-3.4676 5.17,-5.17578 -1.9578,-0.89155 -4.0935,-1.64491 -6.4219,-2.23047 z"
+         id="path2069"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccsccsccc" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2700,362 c 0,0 2,8 10,8 8,0 10,-8 10,-8 -7,2 -13,2 -20,0 z"
+         id="path2071"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="czcc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1821.4807"
+       y="709.82935"
+       id="text2077"><tspan
+         sodipodi:role="line"
+         id="tspan2075"
+         x="1821.4807"
+         y="709.82935"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'">Bezpečí</tspan></text>
+    <flowRoot
+       transform="translate(-280,10)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2085"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2081"><rect
+           y="721.47961"
+           x="2029.6174"
+           height="96.122322"
+           width="251.9068"
+           id="rect2079" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:Montserrat;-inkscape-font-specification:Montserrat"
+         id="flowPara2083">Znalosti a praktické dovednosti, které profesionální progamátoři používají každý den.</flowPara></flowRoot>    <g
+       id="g2146">
+      <g
+         style="fill:#33a7f9;fill-opacity:1"
+         transform="translate(30,40)"
+         id="g2114">
+        <rect
+           rx="2"
+           ry="2"
+           y="320"
+           x="2860"
+           height="40"
+           width="120"
+           id="rect2104"
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:5.36656284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2865"
+           height="20"
+           width="20"
+           id="rect2106"
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2108"
+           width="20"
+           height="20"
+           x="2895"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2925"
+           height="20"
+           width="20"
+           id="rect2110"
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2112"
+           width="20"
+           height="20"
+           x="2955"
+           y="310"
+           ry="5"
+           rx="5" />
+      </g>
+      <g
+         style="fill:#e52318;fill-opacity:1"
+         id="g2102">
+        <rect
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:5.36656284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2087"
+           width="120"
+           height="40"
+           x="2860"
+           y="320"
+           ry="2"
+           rx="2" />
+        <rect
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2089"
+           width="20"
+           height="20"
+           x="2865"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2895"
+           height="20"
+           width="20"
+           id="rect2091"
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2093"
+           width="20"
+           height="20"
+           x="2925"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2955"
+           height="20"
+           width="20"
+           id="rect2095"
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         style="fill:#0c82d7;fill-opacity:1"
+         id="g2126"
+         transform="translate(60,-40)">
+        <rect
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:5.36656284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2116"
+           width="120"
+           height="40"
+           x="2860"
+           y="320"
+           ry="2"
+           rx="2" />
+        <rect
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2118"
+           width="20"
+           height="20"
+           x="2865"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2895"
+           height="20"
+           width="20"
+           id="rect2120"
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2122"
+           width="20"
+           height="20"
+           x="2925"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2955"
+           height="20"
+           width="20"
+           id="rect2124"
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g2184"
+       transform="matrix(0.69230769,0,0,0.69230769,-444.99999,393.07692)">
+      <g
+         id="g2158"
+         transform="translate(30,40)"
+         style="fill:#33a7f9;fill-opacity:1">
+        <rect
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:5.36656284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2148"
+           width="120"
+           height="40"
+           x="2860"
+           y="320"
+           ry="2"
+           rx="2" />
+        <rect
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2150"
+           width="20"
+           height="20"
+           x="2865"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2895"
+           height="20"
+           width="20"
+           id="rect2152"
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2154"
+           width="20"
+           height="20"
+           x="2925"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2955"
+           height="20"
+           width="20"
+           id="rect2156"
+           style="opacity:1;fill:#33a7f9;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="g2170"
+         style="fill:#e52318;fill-opacity:1">
+        <rect
+           rx="2"
+           ry="2"
+           y="320"
+           x="2860"
+           height="40"
+           width="120"
+           id="rect2160"
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:5.36656284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2865"
+           height="20"
+           width="20"
+           id="rect2162"
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2164"
+           width="20"
+           height="20"
+           x="2895"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2925"
+           height="20"
+           width="20"
+           id="rect2166"
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#e52318;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2168"
+           width="20"
+           height="20"
+           x="2955"
+           y="310"
+           ry="5"
+           rx="5" />
+      </g>
+      <g
+         transform="translate(60,-40)"
+         id="g2182"
+         style="fill:#0c82d7;fill-opacity:1">
+        <rect
+           rx="2"
+           ry="2"
+           y="320"
+           x="2860"
+           height="40"
+           width="120"
+           id="rect2172"
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:5.36656284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2865"
+           height="20"
+           width="20"
+           id="rect2174"
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2176"
+           width="20"
+           height="20"
+           x="2895"
+           y="310"
+           ry="5"
+           rx="5" />
+        <rect
+           rx="5"
+           ry="5"
+           y="310"
+           x="2925"
+           height="20"
+           width="20"
+           id="rect2178"
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#0c82d7;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2180"
+           width="20"
+           height="20"
+           x="2955"
+           y="310"
+           ry="5"
+           rx="5" />
+      </g>
+    </g>
+    <text
+       id="text2188"
+       y="709.82935"
+       x="1561.4807"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
+         y="709.82935"
+         x="1561.4807"
+         id="tspan2186"
+         sodipodi:role="line">Hravost</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2196"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-540,10)"><flowRegion
+         id="flowRegion2192"><rect
+           id="rect2190"
+           width="251.9068"
+           height="96.122322"
+           x="2029.6174"
+           y="721.47961" /></flowRegion><flowPara
+         id="flowPara2194"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:Montserrat;-inkscape-font-specification:Montserrat">Znalosti a praktické dovednosti, které profesionální progamátoři používají každý den.</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Course"
+     style="display:none">
+    <rect
+       style="display:inline;opacity:1;fill:#00b9b9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter8571-4)"
+       id="rect8009-4"
+       width="1178.6957"
+       height="270.11777"
+       x="-93.903984"
+       y="168.54343"
+       transform="matrix(0.81445959,0,0,0.81445959,1516.481,-77.271804)" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.62786013;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1493"
+       width="960"
+       height="220"
+       x="1440"
+       y="60" />
+    <image
+       sodipodi:absref="/home/podlomar/work/projects/nove.kodim.cz/graphics/mydev/free-flat01.jpg"
+       xlink:href="free-flat01.jpg"
+       transform="matrix(1.4928572,0,0,1.3750003,-675.28583,-709.54184)"
+       style="display:inline;opacity:0.98999999"
+       clip-path="url(#clipPath232-1-4)"
+       width="280"
+       height="195.80421"
+       preserveAspectRatio="none"
+       id="image8004-1"
+       x="1780"
+       y="559.66663" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1500"
+       y="140"
+       id="text1518"><tspan
+         sodipodi:role="line"
+         id="tspan1516"
+         x="1500"
+         y="140"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Úvod do programování</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot228-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-540,66.05)"><flowRegion
+         id="flowRegion224-6"><rect
+           id="rect222-5"
+           width="460"
+           height="93.949997"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara226-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1646"
+       width="50"
+       height="50"
+       x="1440"
+       y="380"
+       ry="5"
+       rx="5" />
+    <text
+       id="text1678"
+       y="415"
+       x="1510"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         y="415"
+         x="1510"
+         id="tspan1676"
+         sodipodi:role="line">Lorem ipsum dolor</tspan></text>
+    <flowRoot
+       transform="translate(-530,336.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1686"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1682"><rect
+           y="100"
+           x="2040"
+           height="143.95"
+           width="210"
+           id="rect1680" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara1684">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sunt doloremque modi vel consequuntur odio beatae et dolorem ea at.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="1465"
+       y="415"
+       id="text1726"><tspan
+         sodipodi:role="line"
+         id="tspan1724"
+         x="1465"
+         y="415"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1">1</tspan></text>
+    <rect
+       rx="5"
+       ry="5"
+       y="380"
+       x="1765"
+       height="50"
+       width="50"
+       id="rect1739"
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1835"
+       y="415"
+       id="text1743"><tspan
+         sodipodi:role="line"
+         x="1835"
+         y="415"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         id="tspan1973">Iure, eius in quo </tspan><tspan
+         sodipodi:role="line"
+         x="1835"
+         y="438.53693"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         id="tspan1977">quas sit </tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1751"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-205,356.05)"><flowRegion
+         id="flowRegion1747"><rect
+           id="rect1745"
+           width="210"
+           height="143.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara1749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Iure, eius in quo quas sit ad ipsa qui odio quisquam voluptatibus assumenda aliquid consequatur ipsam porro enim autem possimus.</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara1971" /></flowRoot>    <text
+       id="text1755"
+       y="415"
+       x="1790"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1"
+         y="415"
+         x="1790"
+         id="tspan1753"
+         sodipodi:role="line">2</tspan></text>
+    <rect
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1759"
+       width="50"
+       height="50"
+       x="2090"
+       y="380"
+       ry="5"
+       rx="5" />
+    <text
+       id="text1763"
+       y="415"
+       x="2160"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         y="415"
+         x="2160"
+         id="tspan1761"
+         sodipodi:role="line">Tempora ipsum </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         y="438.53693"
+         x="2160"
+         sodipodi:role="line"
+         id="tspan1979">adipisci</tspan></text>
+    <flowRoot
+       transform="translate(120,356.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1771"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1767"><rect
+           y="100"
+           x="2040"
+           height="143.95"
+           width="210"
+           id="rect1765" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara1769">Tempora ipsum adipisci mollitia natus hic optio pariatur ab, odit cumque rerum laudantium obcaecati provident quidem placeat nisi,</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="2115"
+       y="415"
+       id="text1775"><tspan
+         sodipodi:role="line"
+         id="tspan1773"
+         x="2115"
+         y="415"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1">3</tspan></text>
+    <rect
+       rx="5"
+       ry="5"
+       y="600"
+       x="1440"
+       height="50"
+       width="50"
+       id="rect1779"
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1510"
+       y="635"
+       id="text1783"><tspan
+         sodipodi:role="line"
+         id="tspan1781"
+         x="1510"
+         y="635"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start">Cupiditate quo</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1791"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-530,556.05)"><flowRegion
+         id="flowRegion1787"><rect
+           id="rect1785"
+           width="210"
+           height="143.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara1789"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Cupiditate quo exercitationem, quae modi quasi obcaecati atque aperiam iusto ipsa voluptates. Laborum dolorum tempora mollitia vero non praesentium ducimus.</flowPara></flowRoot>    <text
+       id="text1795"
+       y="635"
+       x="1465"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1"
+         y="635"
+         x="1465"
+         id="tspan1793"
+         sodipodi:role="line">4</tspan></text>
+    <rect
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1799"
+       width="50"
+       height="50"
+       x="1765"
+       y="600"
+       ry="5"
+       rx="5" />
+    <text
+       id="text1803"
+       y="635"
+       x="1835"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         y="635"
+         x="1835"
+         id="tspan1801"
+         sodipodi:role="line">Repellat maxime</tspan></text>
+    <flowRoot
+       transform="translate(-205,556.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1811"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1807"><rect
+           y="100"
+           x="2040"
+           height="143.95"
+           width="210"
+           id="rect1805" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara1809">Repellat maxime tempore eos error eaque iure corporis sit velit eveniet dolore, quibusdam nulla qui sequi repudiandae quam praesentium sed!</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="1790"
+       y="635"
+       id="text1815"><tspan
+         sodipodi:role="line"
+         id="tspan1813"
+         x="1790"
+         y="635"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1">5</tspan></text>
+    <rect
+       rx="5"
+       ry="5"
+       y="600"
+       x="2090"
+       height="50"
+       width="50"
+       id="rect1819"
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="2160"
+       y="635"
+       id="text1823"><tspan
+         sodipodi:role="line"
+         id="tspan1821"
+         x="2160"
+         y="635"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start">Pariatur voluptatum</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1831"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(120,556.05)"><flowRegion
+         id="flowRegion1827"><rect
+           id="rect1825"
+           width="210"
+           height="143.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara1829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Pariatur voluptatum animi ab, rerum totam, soluta ipsum consequatur cum alias natus quibusdam explicabo blanditiis ea itaque. Minus, velit eaque.</flowPara></flowRoot>    <text
+       id="text1835"
+       y="635"
+       x="2115"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1"
+         y="635"
+         x="2115"
+         id="tspan1833"
+         sodipodi:role="line">6</tspan></text>
+    <rect
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1839"
+       width="50"
+       height="50"
+       x="1440"
+       y="820"
+       ry="5"
+       rx="5" />
+    <text
+       id="text1843"
+       y="855"
+       x="1510"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         y="855"
+         x="1510"
+         id="tspan1841"
+         sodipodi:role="line">Qui praesentium</tspan></text>
+    <flowRoot
+       transform="translate(-530,776.05)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1851"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1847"><rect
+           y="100"
+           x="2040"
+           height="143.95"
+           width="210"
+           id="rect1845" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara1849">Qui praesentium nesciunt fugiat iure nisi sint id quas, accusamus vero, provident porro commodi ratione, aperiam saepe ipsa? Necessitatibus, ab.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="1465"
+       y="855"
+       id="text1855"><tspan
+         sodipodi:role="line"
+         id="tspan1853"
+         x="1465"
+         y="855"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1">7</tspan></text>
+    <rect
+       rx="5"
+       ry="5"
+       y="820"
+       x="1765"
+       height="50"
+       width="50"
+       id="rect1859"
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="1835"
+       y="855"
+       id="text1863"><tspan
+         sodipodi:role="line"
+         id="tspan1861"
+         x="1835"
+         y="855"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start">Sequi delectus officia</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1871"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-205,776.05)"><flowRegion
+         id="flowRegion1867"><rect
+           id="rect1865"
+           width="210"
+           height="143.95"
+           x="2040"
+           y="100" /></flowRegion><flowPara
+         id="flowPara1869"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Sequi delectus, officia laudantium voluptas accusamus optio commodi voluptatem saepe animi provident unde ducimus quas quis? Earum eum quibusdam tenetur.</flowPara></flowRoot>    <text
+       id="text1875"
+       y="855"
+       x="1790"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1"
+         y="855"
+         x="1790"
+         id="tspan1873"
+         sodipodi:role="line">8</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#f39530;fill-opacity:1;stroke:#ffffff;stroke-width:2.40254498;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3273-6"
+       width="3839"
+       height="1039"
+       x="1"
+       y="1121" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#feffff;fill-opacity:1;stroke:none"
+       x="1471"
+       y="1201"
+       id="text3277-3"><tspan
+         sodipodi:role="line"
+         id="tspan3275-8"
+         x="1471"
+         y="1201"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy';text-align:start;text-anchor:start;fill:#feffff;fill-opacity:1">Martin Podloucký</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3285-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="translate(-569.69,1118.1799)"><flowRegion
+         id="flowRegion3281-8"
+         style="fill:#ffffff;fill-opacity:1"><rect
+           id="rect3279-5"
+           width="220"
+           height="123.95"
+           x="2040"
+           y="100"
+           style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3283-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Lesson"
+     style="display:none">
+    <rect
+       style="display:inline;opacity:1;fill:#00b9b9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter8571-4-0)"
+       id="rect8009-4-9"
+       width="785.79712"
+       height="1964.4928"
+       x="-93.903984"
+       y="168.54343"
+       transform="matrix(0.81445959,0,0,0.81445959,1836.481,-77.27181)" />
+    <rect
+       style="display:inline;opacity:1;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1.38250256;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1493-0"
+       width="640"
+       height="1600"
+       x="1760"
+       y="60"
+       ry="5"
+       rx="5" />
+    <rect
+       style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:0.7337994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1592"
+       width="280"
+       height="60"
+       x="1460"
+       y="60"
+       ry="5"
+       rx="5" />
+    <rect
+       y="140"
+       x="1460"
+       height="180"
+       width="280"
+       id="rect1594"
+       style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1.03774905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       ry="5"
+       rx="5" />
+    <path
+       style="display:inline;opacity:1;fill:#3684f1;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1760,100 c 9,0 35,0 35,0 3,0 5,2 5,5 v 30 c 0,3 -2,5 -5,5 h -35 z"
+       id="rect1759-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsscc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="1780"
+       y="128"
+       id="text1775-5"><tspan
+         sodipodi:role="line"
+         id="tspan1773-5"
+         x="1780"
+         y="128"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff;fill-opacity:1">25</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="1820"
+       y="130"
+       id="text1518-4"><tspan
+         sodipodi:role="line"
+         id="tspan1516-6"
+         x="1820"
+         y="130"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Instalace nástrojů</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2281"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,140)"><flowRegion
+         id="flowRegion2283"><rect
+           id="rect2285"
+           width="520"
+           height="240"
+           x="1820"
+           y="180" /></flowRegion><flowPara
+         id="flowPara2287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Integer pellentesque nunc ut nibh aliquam fermentum. Mauris mollis sagittis lacinia. Curabitur dolor mauris, varius id elementum ut, ullamcorper ac arcu. Cras sit amet eros condimentum, facilisis erat non, eleifend nulla. Mauris imperdiet erat magna, nec imperdiet ligula laoreet ac. Proin tristique ex ac feugiat maximus. Sed nec eleifend arcu, sed bibendum justo. Donec non massa in felis dictum scelerisque sit amet vitae nibh. Phasellus faucibus quam felis, non vestibulum dui laoreet ut. Duis nec massa nibh.</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#525252;fill-opacity:1;stroke:none;stroke-width:1.06066012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2289"
+       width="640"
+       height="90"
+       x="1760"
+       y="540" />
+    <flowRoot
+       transform="translate(0,378)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="flowRoot2888"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2884"
+         style="fill:#ffffff;fill-opacity:1"><rect
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect2882"
+           style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="flowPara2886">for x in number:s</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="flowPara2890">  if x % 3 == 0:</flowPara><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         id="flowPara2892">    print(x)</flowPara></flowRoot>    <flowRoot
+       transform="translate(0,564.175)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2900"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2896"><rect
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect2894" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara2898"> Mauris vitae lobortis purus. Praesent pretium ipsum enim, et tincidunt nisl laoreet quis. Cras tincidunt, leo in sodales faucibus, erat magna mattis odio, id varius est tellus sed mauris. Fusce semper rutrum justo, ut vehicula nulla pharetra quis. Aliquam rutrum accumsan tellus vitae feugiat. Maecenas nec tristique sapien, sed aliquam nunc. Ut ut odio maximus erat dignissim lacinia rhoncus non ante. Nullam et tempus libero</flowPara></flowRoot>    <flowRoot
+       transform="translate(-310,-100.825)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2908"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2904"><rect
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect2902" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara2906">Úvod do programování</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#468ef2;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3070"
+       width="20"
+       height="20"
+       x="1480"
+       y="80"
+       ry="3"
+       rx="3" />
+    <path
+       id="path3059"
+       d="m 1484.0193,91 5.971,-7.961333 5.971,7.961333 h -3.9807 v 5.970997 H 1488 V 91 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.02487916" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3078"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-315.78,-20.915)"><flowRegion
+         id="flowRegion3074"><rect
+           id="rect3072"
+           width="520"
+           height="240"
+           x="1820"
+           y="180" /></flowRegion><flowPara
+         id="flowPara3076"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Cras sit amet eros</flowPara></flowRoot>    <circle
+       style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3088"
+       cx="1490"
+       cy="170"
+       r="5" />
+    <flowRoot
+       transform="translate(-315.78,9.085)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3100"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3096"><rect
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect3094" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara3098">Proin tristique ex ac</flowPara></flowRoot>    <circle
+       r="5"
+       cy="200"
+       cx="1490"
+       id="circle3102"
+       style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3110"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-315.78,39.085)"><flowRegion
+         id="flowRegion3106"><rect
+           id="rect3104"
+           width="520"
+           height="240"
+           x="1820"
+           y="180" /></flowRegion><flowPara
+         id="flowPara3108"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Donec non massa</flowPara></flowRoot>    <circle
+       style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3112"
+       cx="1490"
+       cy="230"
+       r="5" />
+    <flowRoot
+       transform="translate(-315.78,69.085)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3120"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3116"><rect
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect3114" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         id="flowPara3118">Sed nec eleifend arcu</flowPara></flowRoot>    <circle
+       r="5"
+       cy="260"
+       cx="1490"
+       id="circle3122"
+       style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3130"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(-315.78,99.085)"><flowRegion
+         id="flowRegion3126"><rect
+           id="rect3124"
+           width="520"
+           height="240"
+           x="1820"
+           y="180" /></flowRegion><flowPara
+         id="flowPara3128"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Duis nec</flowPara></flowRoot>    <circle
+       style="opacity:1;fill:#f39530;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3132"
+       cx="1490"
+       cy="290"
+       r="5" />
+    <path
+       style="fill:none;stroke:#f39530;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1490,170 V 290"
+       id="path3134"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cccsscc"
+       inkscape:connector-curvature="0"
+       id="path3136"
+       d="m 1760,240 c 9,0 35,0 35,0 3,0 5,2 5,5 v 30 c 0,3 -2,5 -5,5 h -35 z"
+       style="display:inline;opacity:1;fill:#3684f1;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;stroke-width:0.04817101"
+       inkscape:connector-curvature="0"
+       d="m 1780.439,271.97583 -15.4149,-11.56104 15.4149,-11.56105 v 7.70745 H 1792 v 7.70721 h -11.561 z"
+       id="path3138" />
+    <text
+       id="text3142"
+       y="264"
+       x="1820"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start"
+         y="264"
+         x="1820"
+         id="tspan3140"
+         sodipodi:role="line">Programátorský svět</tspan></text>
+    <path
+       style="display:inline;opacity:1;fill:#3684f1;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2400,240 c -9,0 -35,0 -35,0 -3,0 -5,2 -5,5 v 30 c 0,3 2,5 5,5 h 35 z"
+       id="path3144"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsscc" />
+    <path
+       id="path3146"
+       d="m 2379.561,271.97583 15.4149,-11.56104 -15.4149,-11.56105 v 7.70745 H 2368 v 7.70721 h 11.561 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.04817101" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="2194"
+       y="264"
+       id="text3150"><tspan
+         sodipodi:role="line"
+         id="tspan3148"
+         x="2194"
+         y="264"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Práce s terminálem</tspan></text>
+    <flowRoot
+       transform="translate(0,-25.825)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3164"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3160"><rect
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect3158" /></flowRegion><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Italic';text-align:start;text-anchor:start"
+         id="flowPara3162">Suspendisse potenti. In ac nunc lorem. Quisque lobortis lectus sit amet varius malesuada. Vivamus scelerisque egestas eros, quis varius odio auctor ac.</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:#3684f1;fill-opacity:1;stroke:none;stroke-width:2.16024685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.97254902"
+       id="rect3166"
+       width="640"
+       height="420"
+       x="1760"
+       y="940" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3174"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#fbfbfb;fill-opacity:1;stroke:none"
+       transform="translate(0,852.175)"><flowRegion
+         id="flowRegion3170"
+         style="fill:#fbfbfb;fill-opacity:1"><rect
+           id="rect3168"
+           width="520"
+           height="240"
+           x="1820"
+           y="180"
+           style="fill:#fbfbfb;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start;fill:#fbfbfb;fill-opacity:1">Proin tristique ex ac feugiat maximus. Sed nec eleifend arcu, sed bibendum justo. Donec non massa in felis dictum scelerisque sit amet vitae nibh. Phasellus faucibus quam felis, non vestibulum dui laoreet ut. Duis nec massa nibh.</flowPara></flowRoot>    <text
+       id="text3178"
+       y="1008"
+       x="1820"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1"
+         y="1008"
+         x="1820"
+         id="tspan3176"
+         sodipodi:role="line">Cvičení pro nováčky</tspan></text>
+    <path
+       sodipodi:nodetypes="cccsscc"
+       inkscape:connector-curvature="0"
+       id="path3180"
+       d="m 1760,980 c 9,0 35,0 35,0 3,0 5,2 5,5 v 30 c 0,3 -2,5 -5,5 h -35 z"
+       style="display:inline;opacity:1;fill:#e0ecfd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text3184"
+       y="1008"
+       x="1780"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#468ef2;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#468ef2;fill-opacity:1"
+         y="1008"
+         x="1780"
+         id="tspan3182"
+         sodipodi:role="line">1</tspan></text>
+    <flowRoot
+       transform="translate(0,1032.175)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#fbfbfb;fill-opacity:1;stroke:none"
+       id="flowRoot3192"
+       xml:space="preserve"><flowRegion
+         style="fill:#fbfbfb;fill-opacity:1"
+         id="flowRegion3188"><rect
+           style="fill:#fbfbfb;fill-opacity:1"
+           y="180"
+           x="1820"
+           height="240"
+           width="520"
+           id="rect3186" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start;fill:#fbfbfb;fill-opacity:1"
+         id="flowPara3190">Proin tristique ex ac feugiat maximus. Sed nec eleifend arcu, sed bibendum justo. Donec non massa in felis dictum scelerisque sit amet vitae nibh. Phasellus faucibus quam felis, non vestibulum dui laoreet ut. Duis nec massa nibh.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       x="1820"
+       y="1188"
+       id="text3196"><tspan
+         sodipodi:role="line"
+         id="tspan3194"
+         x="1820"
+         y="1188"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Cvičení pro chytré hlavy</tspan></text>
+    <path
+       style="display:inline;opacity:1;fill:#e0ecfd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1760,1160 c 9,0 35,0 35,0 3,0 5,2 5,5 v 30 c 0,3 -2,5 -5,5 h -35 z"
+       id="path3198"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsscc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#468ef2;fill-opacity:1;stroke:none"
+       x="1780"
+       y="1188"
+       id="text3202"><tspan
+         sodipodi:role="line"
+         id="tspan3200"
+         x="1780"
+         y="1188"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#468ef2;fill-opacity:1">2</tspan></text>
+    <circle
+       cy="1002.5"
+       cx="2333"
+       id="circle3212"
+       style="opacity:1;fill:none;fill-opacity:0.97254902;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="6.5" />
+    <circle
+       r="6.5"
+       style="opacity:1;fill:none;fill-opacity:0.97254902;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3214"
+       cx="2313"
+       cy="1002.5" />
+    <circle
+       cy="1002.5"
+       cx="2293"
+       id="circle3216"
+       style="opacity:1;fill:none;fill-opacity:0.97254902;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="6.5" />
+    <circle
+       r="6.5"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3218"
+       cx="2273"
+       cy="1002.5" />
+    <circle
+       cy="1002.5"
+       cx="2253"
+       id="circle3220"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="6.5" />
+    <circle
+       r="6.5"
+       style="opacity:1;fill:none;fill-opacity:0.97254902;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3222"
+       cx="2333"
+       cy="1182.5" />
+    <circle
+       cy="1182.5"
+       cx="2313"
+       id="circle3224"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="6.5" />
+    <circle
+       r="6.5"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3226"
+       cx="2293"
+       cy="1182.5" />
+    <circle
+       cy="1182.5"
+       cx="2273"
+       id="circle3228"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       r="6.5" />
+    <circle
+       r="6.5"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle3230"
+       cx="2253"
+       cy="1182.5" />
+    <text
+       id="text3234"
+       y="710"
+       x="1820"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start"
+         y="710"
+         x="1820"
+         id="tspan3232"
+         sodipodi:role="line">Cras sit amet eros</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3242"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.5;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,1284.175)"><flowRegion
+         id="flowRegion3238"><rect
+           id="rect3236"
+           width="520"
+           height="240"
+           x="1820"
+           y="180" /></flowRegion><flowPara
+         id="flowPara3240"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start">Morbi sagittis tortor a tortor condimentum, ut porttitor mauris elementum. Nulla sagittis neque ullamcorper urna mattis, ac aliquam nibh finibus. Nunc in sapien at orci finibus tempor id laoreet est.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="1820"
+       y="1430"
+       id="text3246"><tspan
+         sodipodi:role="line"
+         id="tspan3244"
+         x="1820"
+         y="1430"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-anchor:start">Proin tristique ex ac</tspan></text>
+    <rect
+       style="display:inline;opacity:1;fill:#f39530;fill-opacity:1;stroke:#ffffff;stroke-width:2.40254498;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3273-6-2"
+       width="3840"
+       height="400"
+       x="0"
+       y="1760" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#ffffff;fill-opacity:0.97076021;stroke:none"
+       x="1470"
+       y="1840"
+       id="text3277-3-0"><tspan
+         sodipodi:role="line"
+         id="tspan3275-8-3"
+         x="1470"
+         y="1840"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Heavy';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:0.97076021">Martin Podloucký</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3285-2-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="translate(-570.69,1757.1799)"><flowRegion
+         id="flowRegion3281-8-7"
+         style="fill:#ffffff;fill-opacity:1"><rect
+           id="rect3279-5-7"
+           width="220"
+           height="123.95"
+           x="2040"
+           y="100"
+           style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3283-9-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ea corporis deleniti harum accusamus tempora a omnis quia officiis architecto?</flowPara></flowRoot>  </g>
+</svg>
