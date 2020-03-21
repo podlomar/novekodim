@@ -6,9 +6,13 @@ import MarkdownItKbd from "markdown-it-kbd";
 import MarkdownItTocAndAnchor from "markdown-it-toc-and-anchor";
 import MarkdownItBlockImage from "markdown-it-block-image";
 import MarkdownItCustomBlock from "markdown-it-custom-block";
+import MarkdownItShortcodeTag from "markdown-it-shortcode-tag";
+import MarkdownItDeflist from "markdown-it-deflist";
 import YAML from "yaml";
 import hljs from "highlight.js";
-import uslug from "uslug";
+import slug from "slug";
+
+slug.defaults.mode = "rfc3986";
 
 hljs.registerLanguage("pycon", hljs => ({
   contains: [
@@ -36,53 +40,76 @@ hljs.registerLanguage("jscon", hljs => ({
   ]
 }));
 
-const createParser = frontMatterCallback =>
-  new MarkdownIt({
-    html: true,
-    linkify: true,
-    typographer: true,
-    highlight: (str, lang) => {
-      if (lang && hljs.getLanguage(lang)) {
-        return hljs.highlight(lang, str).value;
-      }
+// hljs.addPlugin({
+//   'after:highlightBlock': ({ block, result }) => {
+//     console.log(block);
+//     console.log(result);
+//   }
+// });
 
-      if (lang === "shell") {
-        console.log(`a${lang}a`);
-        console.log(shlt.highlight(lang, str));
-        return shlt.highlight(lang, str);
+const createParser = frontMatterCallback => {
+  const shortcodes = {
+    term: {
+      render: function(attrs) {
+        console.log(attrs);
+        return `
+          <span class="term">
+            <span class="term__cs">${attrs.cs}</span>
+            <span class="term__en">angl: ${attrs.en}</span>
+          </span>
+        `;
       }
-      return ""; // use external default escaping
     }
-  })
-    // .use(MarkdownItContainer, 'text', {
-    //   validate: function(params) {
-    //     return true;
-    //   },
-    //   render: (tokens, idx) => {
-    //     const type = tokens[idx].info.trim();
-    //     if (type === 'exrc') {
-    //       return renderExercise(tokens[idx].nesting, 1);
-    //     }
-    //     return renderSection(type, tokens[idx].nesting);
-    //   }
-    // })
-    .use(MarkdownItAttrs)
-    .use(MarkdownItKbd)
-    .use(MarkdownItTocAndAnchor, {
-      anchorLinkSymbol: "¶",
-      tocFirstLevel: 2,
-      tocLastLevel: 2
-    })
-    .use(MarkdownItBlockImage, {
-      outputContainer: "div",
-      containerClassName: "block-image"
-    })
-    .use(MarkdownItCustomBlock, {
-      exrc(arg) {
-        return `<pre>${arg}</pre>`;
+  };
+
+  return (
+    new MarkdownIt({
+      html: true,
+      linkify: true,
+      typographer: true,
+      highlight: (str, lang) => {
+        if (lang && hljs.getLanguage(lang)) {
+          return hljs.highlight(lang, str).value;
+        }
+
+        if (lang === "shell") {
+          console.log(`a${lang}a`);
+          console.log(shlt.highlight(lang, str));
+          return shlt.highlight(lang, str);
+        }
+        return ""; // use external default escaping
       }
     })
-    .use(MarkdownItFrontMatter, frontMatterCallback);
+      .use(MarkdownItShortcodeTag, shortcodes)
+      .use(MarkdownItAttrs)
+      .use(MarkdownItKbd)
+      .use(MarkdownItTocAndAnchor, {
+        anchorLinkSymbol: "¶",
+        tocFirstLevel: 2,
+        tocLastLevel: 2,
+        anchorClassName: "anchor",
+        slugify: str => slug(str)
+      })
+      .use(MarkdownItBlockImage, {
+        outputContainer: "div",
+        containerClassName: "block-image"
+      })
+      // .use(MarkdownItCustomBlock, {
+      //   term(arg) {
+      //     const [cz, en] = arg.split("|");
+
+      //     return `
+      //       <span class="term">
+      //         <span class="term__cz">${cz}</span>
+      //         <span class="term__en">${en}</span>
+      //       </span>
+      //     `;
+      //   }
+      // })
+      .use(MarkdownItFrontMatter, frontMatterCallback)
+      .use(MarkdownItDeflist)
+  );
+};
 
 const demands = [
   "pohodička",
@@ -101,6 +128,7 @@ export const parseExercise = content => {
   const parser = createParser(fm => {
     const front = YAML.parse(fm);
     result.title = front.title;
+    result.anchor = "exrc-" + slug(front.title);
     result.demand = front.demand;
     result.demandText = demands[front.demand - 1];
   });
@@ -150,7 +178,7 @@ export const parseLesson = content => {
 
         if (title.startsWith("##")) {
           title = title.substring(2).trim();
-          slugTitle = uslug(title);
+          slugTitle = slug(title);
           level = 2;
           result.toc.push({
             content: title,

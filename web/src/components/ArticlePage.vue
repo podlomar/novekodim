@@ -90,9 +90,15 @@ export default {
 
   p,
   ul,
-  ol {
+  ol,
+  dl {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  dt,
+  dd {
+    margin-bottom: 0.5rem;
   }
 
   h2,
@@ -101,32 +107,7 @@ export default {
     padding: 1rem 4rem;
   }
 
-  h3,
-  h4 {
-    .markdownIt-Anchor {
-      display: none;
-    }
-  }
-
-  h2 {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-    font-weight: 900;
-  }
-
-  h3 {
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-  }
-
-  em {
-    background-color: $color-textbg-em;
-    padding: 0rem 0.4rem;
-    border-radius: 5px;
-  }
-
-  .markdownIt-Anchor {
+  .anchor {
     opacity: 0;
     transition: 250ms;
     text-decoration: none;
@@ -134,8 +115,29 @@ export default {
     margin-left: -1.7rem;
   }
 
-  h2:hover {
-    .markdownIt-Anchor {
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+
+    .anchor {
+      margin-left: -1.7rem;
+    }
+  }
+
+  h3 {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+
+    .anchor {
+      margin-left: -1.2rem;
+    }
+  }
+
+  h2:hover,
+  h3:hover {
+    .anchor {
       opacity: 1;
       margin-left: 0;
     }
@@ -172,6 +174,7 @@ export default {
     color: white;
     padding: 1rem 4rem;
     margin: 2rem 0;
+    overflow-x: auto;
   }
 
   var {
@@ -185,6 +188,38 @@ export default {
     border: 1px solid $color-gray-8;
     border-radius: 4px;
     padding: 0rem 0.5rem;
+  }
+}
+
+.term {
+  display: inline;
+  position: relative;
+  font-style: italic;
+  overflow: visible;
+
+  &__cs {
+    background-color: $color-textbg-em;
+    padding: 0rem 0.5rem;
+    border-radius: 5px;
+    cursor: default;
+  }
+
+  &__en {
+    position: absolute;
+    top: -2rem;
+    left: 0rem;
+    background-color: #444;
+    color: white;
+    padding: 0rem 0.5rem;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 1;
+    white-space: pre;
+    transition: 400ms;
+  }
+
+  &:hover &__en {
+    opacity: 1;
   }
 }
 </style>

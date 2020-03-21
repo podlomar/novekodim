@@ -4,27 +4,32 @@
       <div class="chapter-link">
         <router-link
           :to="`/${$route.params.sectionLink}/${$route.params.courseLink}`"
-        >{{content.course.title}}</router-link>
+          >{{ content.course.title }}</router-link
+        >
       </div>
     </template>
 
     <template v-slot:links>
       <div class="article-link article-link--backward" v-if="content.back">
         <div class="arrow-left"></div>
-        <router-link :to="content.back.link">{{content.back.title}}</router-link>
+        <router-link :to="content.back.link">{{
+          content.back.title
+        }}</router-link>
       </div>
       <div class="article-links-filler"></div>
       <div class="article-link article-link--forward" v-if="content.forward">
-        <router-link :to="content.forward.link">{{content.forward.title}}</router-link>
+        <router-link :to="content.forward.link">{{
+          content.forward.title
+        }}</router-link>
         <div class="arrow-right"></div>
       </div>
     </template>
 
-    <template v-slot:num>{{content.lesson.order}}</template>
+    <template v-slot:num>{{ content.lesson.order }}</template>
 
-    <template v-slot:title>{{content.lesson.title}}</template>
+    <template v-slot:title>{{ content.lesson.title }}</template>
 
-    <template v-slot:brief>{{content.lesson.brief}}</template>
+    <template v-slot:brief>{{ content.lesson.brief }}</template>
 
     <template v-slot:outline>
       <nav class="article-outline">
@@ -33,13 +38,18 @@
           v-for="tocItem in content.toc"
           :key="tocItem.anchor"
           :href="`#${tocItem.anchor}`"
-        >{{ tocItem.content }}</a>
+          >{{ tocItem.content }}</a
+        >
       </nav>
     </template>
 
     <template v-slot:articleBody>
       <template v-for="(section, idx) in content.sections">
-        <TextSection v-if="section.type === '@text'" :key="idx" :html="section.html"></TextSection>
+        <TextSection
+          v-if="section.type === '@text'"
+          :key="idx"
+          :html="section.html"
+        ></TextSection>
         <section
           v-if="section.type === '@exercises'"
           :key="idx"
@@ -50,14 +60,15 @@
             :id="section.anchor"
             class="exrc-section-title"
           >
-            <a class="markdownIt-Anchor" :href="`#${section.anchor}`">¶</a>
-            {{section.title}}
+            <a class="anchor" :href="`#${section.anchor}`">¶</a>
+            {{ section.title }}
           </h2>
           <div v-if="section.title === 'bonuses'" class="exrc-bonuses">
             <div class="exrc-bonuses__head">Bonusová cvičení</div>
-            <div
-              class="exrc-bonuses__body"
-            >Nepovinné úložky, které můžete řešit pokud máte chuť na větší výzvu nebo si chcete látku procvičit víc do hloubky.</div>
+            <div class="exrc-bonuses__body">
+              Nepovinné úložky, které můžete řešit pokud máte chuť na větší
+              výzvu nebo si chcete látku procvičit víc do hloubky.
+            </div>
           </div>
           <ExerciseSection
             v-for="(exrc, eidx) in section.data"
@@ -287,5 +298,3 @@ table {
   }
 }
 </style>
-
-

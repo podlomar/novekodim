@@ -56,8 +56,11 @@
               :key="course.link"
               :to="`/czechitas/${course.link}`"
             >
-              <h3>{{ course.title }}</h3>
-              <p>{{ course.brief }}</p>
+              <img class="course-card__image" :src="courseImages[course.link]" />
+              <div class="course-card__body">
+                <h3>{{ course.title }}</h3>
+                <p>{{ course.brief }}</p>
+              </div>
             </router-link>
           </div>
         </div>
@@ -73,6 +76,9 @@ import image1 from "../assets/img/playfulness.svg";
 import image2 from "../assets/img/safety.svg";
 import image3 from "../assets/img/knowledge.svg";
 
+import course1 from "../assets/img/daweb.svg";
+import course2 from "../assets/img/python-data.svg";
+
 export default {
   name: "Home",
   components: {
@@ -82,6 +88,11 @@ export default {
     this.image1 = image1;
     this.image2 = image2;
     this.image3 = image3;
+    this.courseImages = {
+      daweb: course1,
+      "python-data": course2
+    };
+
     return fetchCoursesList("czechitas")
       .then(data => (this.courses = data))
       .catch(err => console.log(err));
@@ -106,9 +117,9 @@ export default {
 
   &__graphic {
     width: 640px;
-    height: 350px;
+    height: 397px;
 
-    background-image: url("../assets/img/banner.png");
+    background-image: url("../assets/img/coding.svg");
     background-size: contain;
   }
 }
@@ -121,7 +132,7 @@ export default {
 
 .codex {
   display: flex;
-  margin: 5rem -1.5rem 0 -1.5rem;
+  margin: 2rem -1.5rem 0 -1.5rem;
 }
 
 .codex-card {
@@ -154,6 +165,7 @@ export default {
 
   &__info {
     flex: 0 0 33.333%;
+    padding-right: 1rem;
   }
 
   &__list {
@@ -161,6 +173,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 4rem;
 
     &::before {
       content: "";
@@ -183,7 +196,21 @@ export default {
   box-shadow: 0 0 10px #ddd;
   border-radius: 1rem;
   margin: 1rem;
-  padding: 2rem;
   text-decoration: none;
+
+  &__image {
+    width: 100%;
+    height: auto;
+    margin-top: -8rem;
+  }
+
+  &__body {
+    padding: 0 2rem 2rem 2rem;
+    margin-top: -1rem;
+
+    h3 {
+      margin: 0;
+    }
+  }
 }
 </style>

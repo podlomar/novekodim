@@ -2,12 +2,15 @@
   <div class="exercise">
     <div class="exercise__head">
       <div class="exercise__title">
-        <div class="exercise__num">{{exrcNum}}</div>
-        <h3>{{content.title}}</h3>
+        <div class="exercise__num">{{ exrcNum }}</div>
+        <h3 :id="content.anchor">
+          <a class="anchor" :href="`#${content.anchor}`">¶</a>
+          {{ content.title }}
+        </h3>
       </div>
       <div class="exercise__demand">
         <div :class="`demand demand--${content.demand}`"></div>
-        <div class="demand-text">{{content.demandText}}</div>
+        <div class="demand-text">{{ content.demandText }}</div>
       </div>
     </div>
     <div class="exercise__body" v-html="content.html"></div>
