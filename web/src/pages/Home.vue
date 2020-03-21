@@ -4,7 +4,10 @@
       <div class="banner container">
         <div class="banner__lead">
           <h1>Kodím.cz</h1>
-          <p>Kurzy programování pro všechny, kdo si chtějí hrát a zároveň věcem opravdu rozumět.</p>
+          <p>
+            Kurzy programování pro všechny, kdo si chtějí hrát a zároveň věcem
+            opravdu rozumět.
+          </p>
         </div>
         <div class="banner__graphic"></div>
       </div>
@@ -17,27 +20,30 @@
             <img class="codex-card__icon" :src="image1" />
             <div class="codex-card__body">
               <div class="codex-card__title">Hravost</div>
-              <div
-                class="codex-card__text"
-              >Většina programátorů se začala učit svoje řemeslo tak, že je bavilo si prostě jen hrát a tvořit.</div>
+              <div class="codex-card__text">
+                Většina programátorů se začala učit svoje řemeslo tak, že je
+                bavilo si prostě jen hrát a tvořit.
+              </div>
             </div>
           </div>
           <div class="codex-card">
             <img class="codex-card__icon" :src="image2" />
             <div class="codex-card__body">
               <div class="codex-card__title">Bezpečí</div>
-              <div
-                class="codex-card__text"
-              >Všechny probírané pojmy vysvětlíme opravdu od základu a vstřícně ke všem, kteří ještě nemají žádné zkušenosti.</div>
+              <div class="codex-card__text">
+                Všechny probírané pojmy vysvětlíme opravdu od základu a vstřícně
+                ke všem, kteří ještě nemají žádné zkušenosti.
+              </div>
             </div>
           </div>
           <div class="codex-card">
             <img class="codex-card__icon" :src="image3" />
             <div class="codex-card__body">
               <div class="codex-card__title">Znalosti</div>
-              <div
-                class="codex-card__text"
-              >Získáte skutečné vědomosti a dovednosti, které profesionální programátoři používají každý den.</div>
+              <div class="codex-card__text">
+                Získáte skutečné vědomosti a dovednosti, které profesionální
+                programátoři používají každý den.
+              </div>
             </div>
           </div>
         </div>
@@ -46,7 +52,10 @@
         <div class="courses container">
           <div class="courses__info">
             <h2>Czechitas</h2>
-            <p>Kurzy pořádané ve spolupráci s Czechitas, kteří pomáhají holkám, ženám i dětem poznat svět informačních technologií.</p>
+            <p>
+              Kurzy pořádané ve spolupráci s Czechitas, kteří pomáhají holkám,
+              ženám i dětem poznat svět informačních technologií.
+            </p>
           </div>
 
           <div class="courses__list">
@@ -56,7 +65,10 @@
               :key="course.link"
               :to="`/czechitas/${course.link}`"
             >
-              <img class="course-card__image" :src="courseImages[course.link]" />
+              <img
+                class="course-card__image"
+                :src="courseImages[course.link]"
+              />
               <div class="course-card__body">
                 <h3>{{ course.title }}</h3>
                 <p>{{ course.brief }}</p>
@@ -103,10 +115,29 @@ export default {
 <style lang="scss">
 .banner {
   display: flex;
+  flex-direction: column;
+  @include breakpoint-md {
+    flex-direction: row;
+  }
 
   &__lead {
-    width: 320px;
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
     padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include breakpoint-md {
+      text-align: left;
+      padding-left: 0;
+      padding-right: 2rem;
+      width: $container-md / 3;
+    }
+
+    @include breakpoint-lg {
+      width: $container-lg / 3;
+    }
 
     h1 {
       margin: 0;
@@ -116,31 +147,55 @@ export default {
   }
 
   &__graphic {
-    width: 640px;
-    height: 397px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 62%;
+
+    @include breakpoint-md {
+      text-align: left;
+      padding-right: 2rem;
+      width: $container-md * 2 / 3;
+      height: $container-md * 2 / 3 * 0.62;
+      padding-bottom: 0;
+    }
+
+    @include breakpoint-lg {
+      width: $container-lg * 2 / 3;
+      height: $container-lg * 2 / 3 * 0.62;
+    }
+
+    // width: 640px;
+    // height: 397px;
 
     background-image: url("../assets/img/coding.svg");
     background-size: contain;
-  }
-}
-
-.home {
-  &__main {
-    display: flex;
+    background-repeat: no-repeat;
   }
 }
 
 .codex {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin: 2rem -1.5rem 0 -1.5rem;
+
+  @include breakpoint-md {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .codex-card {
   display: flex;
   align-items: flex-start;
 
-  width: 320px;
-  margin: 1.5rem;
+  max-width: 20rem;
+  margin: 1.5rem 0.5rem;
 
   &__icon {
     width: 3rem;

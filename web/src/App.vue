@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Space+Mono:400,700|Roboto+Mono:400,700&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Mono:400,700&display=fallback&subset=latin-ext");
 
 * {
   box-sizing: border-box;
@@ -21,8 +21,20 @@ body {
 }
 
 .container {
-  width: 960px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+
+  @include breakpoint-sm {
+    width: $container-sm;
+  }
+
+  @include breakpoint-md {
+    width: $container-md;
+  }
+
+  @include breakpoint-lg {
+    width: $container-lg;
+  }
 }
 </style>

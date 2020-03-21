@@ -29,7 +29,7 @@ module.exports = {
           {
             loader: "sass-resources-loader",
             options: {
-              resources: "./src/scss/variables.scss"
+              resources: ["./src/scss/variables.scss", "./src/scss/mixins.scss"]
             }
           }
         ]
