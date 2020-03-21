@@ -132,11 +132,7 @@ export default {
       text-align: left;
       padding-left: 0;
       padding-right: 2rem;
-      width: $container-md / 3;
-    }
-
-    @include breakpoint-lg {
-      width: $container-lg / 3;
+      width: 33.333%;
     }
 
     h1 {
@@ -215,43 +211,71 @@ export default {
 
 .courses {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+
   margin-top: 5rem;
   margin-bottom: 5rem;
 
+  @include breakpoint-md {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
   &__info {
-    flex: 0 0 33.333%;
-    padding-right: 1rem;
+    text-align: center;
+    max-width: 30rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include breakpoint-md {
+      flex: 0 0 33.333%;
+      text-align: left;
+      padding-left: 0;
+      padding-right: 1rem;
+    }
   }
 
   &__list {
-    flex: 0 0 66.666%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     margin-top: 4rem;
 
-    &::before {
-      content: "";
-      position: absolute;
-      display: block;
-      background-color: #c3e5de;
-      top: 4rem;
-      left: 7rem;
-      width: calc(100% - 6rem);
-      height: calc(100% - 3rem);
-      border-radius: 1rem;
-      z-index: -1;
+    @include breakpoint-md {
+      flex: 0 0 66.666%;
+      flex-direction: row;
+      align-items: stretch;
+
+      &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        background-color: #c3e5de;
+        top: 4rem;
+        left: 7rem;
+        width: calc(100% - 6rem);
+        height: calc(100% - 3rem);
+        border-radius: 1rem;
+        z-index: -1;
+      }
     }
   }
 }
 
 .course-card {
   flex: 1;
+  max-width: 20rem;
   background-color: white;
   box-shadow: 0 0 10px #ddd;
   border-radius: 1rem;
-  margin: 1rem;
+  margin: 1rem 1rem 8rem 1rem;
   text-decoration: none;
+
+  @include breakpoint-md {
+    margin-bottom: 1rem;
+  }
 
   &__image {
     width: 100%;
