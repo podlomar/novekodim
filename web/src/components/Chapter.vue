@@ -1,15 +1,15 @@
 <template>
   <div class="chapter">
-    <h2 class="chapter-title">{{chapter.title}}</h2>
+    <h2 class="chapter-title">{{ chapter.title }}</h2>
 
     <div class="lessons">
       <div class="lesson" v-for="(lesson, index) in chapter.lessons" :key="lesson.link">
         <router-link append :to="`${chapter.link}/${lesson.link}`">
           <div class="lesson__head">
-            <div class="lesson-num">{{index+1}}</div>
-            <h3>{{lesson.title}}</h3>
+            <div class="lesson-num">{{ index + 1 }}</div>
+            <h3>{{ lesson.title }}</h3>
           </div>
-          <p>{{lesson.brief}}</p>
+          <p>{{ lesson.brief }}</p>
         </router-link>
       </div>
     </div>
@@ -45,38 +45,40 @@ export default {
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #ddd;
+  padding: 2rem;
   margin: 3rem 0;
 }
 
 .lessons {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin: 0 -1.5rem;
-  position: relative;
 
-  &::before {
-    content: "";
-    position: absolute;
-    display: block;
-    background-color: #c3e5de;
-    top: 5rem;
-    left: 8rem;
-    width: calc(100% - 8rem + 3rem);
-    height: calc(100% - 5rem);
-    border-radius: 1rem;
-    z-index: -1;
+  @include breakpoint-md {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
 .lesson {
-  flex: 0 0 calc(33.33% - 3rem);
-  background-color: white;
+  background-color: $color-bg-tertiary;
   border-radius: 1rem;
   box-shadow: 0 0 10px #ddd;
   margin: 1.5rem;
   margin-bottom: 2rem;
   transition: 400ms;
   padding: 1.5rem 2.5rem;
+
+  @include breakpoint-sm {
+    flex: 0 0 calc(50% - 3rem);
+  }
+
+  @include breakpoint-lg {
+    flex: 0 0 calc(33.33% - 3rem);
+  }
 
   &:hover {
     transform: scale(1.1);
@@ -85,7 +87,11 @@ export default {
   &__head {
     display: flex;
     align-items: baseline;
-    margin-left: -4rem;
+    margin-left: -2rem;
+
+    @include breakpoint-sm {
+      margin-left: -4rem;
+    }
   }
 
   h3 {
@@ -100,7 +106,8 @@ export default {
 
 .lesson-num {
   flex: 0 0 auto;
-  background-color: $color-bg-tertiary;
+  background-color: white;
+  box-shadow: 0 0 10px #ddd;
   width: 3rem;
   height: 3rem;
   text-align: center;

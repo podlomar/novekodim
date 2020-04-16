@@ -17,7 +17,10 @@ html {
 body {
   margin: 0;
   color: $color-text-primary;
-  background-image: linear-gradient(to bottom right, #f1f2d9, #bbeaf6);
+  background-image: url("./assets/img/pokus.svg");
+  background-position-x: center;
+  background-repeat: repeat-y;
+  // background-image: linear-gradient(to bottom right, #f1f2d9, #bbeaf6);
 }
 
 .container {

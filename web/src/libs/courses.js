@@ -26,22 +26,22 @@ export const loadLesson = (file) => {
 }
 
 export const fetchCoursesList = (section) => {
-  return loadYaml(CONTENT_PATH + `/${section}/index.yaml`);
+  return loadYaml(`/content/${section}/index.yaml`);
 }
 
 export const fetchChapter = (section, course, chapter) => {
   return loadYaml(
-    CONTENT_PATH + `/${section}/${course}/${chapter}/index.yaml`
+    `/content/${section}/${course}/${chapter}/index.yaml`
   );
 }
 
 export const fetchLesson = (section, course, chapter, lesson) => {
   return Promise.all([
     loadLesson(
-      CONTENT_PATH + `/${section}/${course}/${chapter}/${lesson}/lesson.md`
+      `/content/${section}/${course}/${chapter}/${lesson}/lesson.md`
     ),
     loadYaml(
-      CONTENT_PATH + `/${section}/${course}/${chapter}/index.yaml`
+      `/content/${section}/${course}/${chapter}/index.yaml`
     ),
   ]).then(([{
     sections,
@@ -78,6 +78,6 @@ export const fetchLesson = (section, course, chapter, lesson) => {
 
 export const fetchExercise = (section, course, chapter, lesson, exrc) => {
   return readFile(
-    CONTENT_PATH + `/${section}/${course}/${chapter}/${lesson}/exercises/${exrc}.md`,
+    `/content/${section}/${course}/${chapter}/${lesson}/exercises/${exrc}.md`,
   ).then(content => parseExercise(content));
 }

@@ -65,10 +65,7 @@
               :key="course.link"
               :to="`/czechitas/${course.link}`"
             >
-              <img
-                class="course-card__image"
-                :src="courseImages[course.link]"
-              />
+              <img class="course-card__image" :src="courseImages[course.link]" />
               <div class="course-card__body">
                 <h3>{{ course.title }}</h3>
                 <p>{{ course.brief }}</p>
@@ -219,20 +216,23 @@ export default {
 
   @include breakpoint-md {
     flex-direction: row;
-    align-items: stretch;
+    align-items: flex-start;
   }
 
   &__info {
     text-align: center;
     max-width: 30rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 1rem 2rem;
+    // padding-right: 2rem;
+    background-color: $color-bg-tertiary;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #ddd;
 
     @include breakpoint-md {
       flex: 0 0 33.333%;
       text-align: left;
-      padding-left: 0;
-      padding-right: 1rem;
+      // padding-left: 0;
+      // padding-right: 1rem;
     }
   }
 
@@ -241,25 +241,11 @@ export default {
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 4rem;
 
     @include breakpoint-md {
       flex: 0 0 66.666%;
       flex-direction: row;
       align-items: stretch;
-
-      &::before {
-        content: "";
-        position: absolute;
-        display: block;
-        background-color: #c3e5de;
-        top: 4rem;
-        left: 7rem;
-        width: calc(100% - 6rem);
-        height: calc(100% - 3rem);
-        border-radius: 1rem;
-        z-index: -1;
-      }
     }
   }
 }
@@ -267,10 +253,10 @@ export default {
 .course-card {
   flex: 1;
   max-width: 20rem;
-  background-color: white;
-  box-shadow: 0 0 10px #ddd;
-  border-radius: 1rem;
-  margin: 1rem 1rem 8rem 1rem;
+  // background-color: white;
+  // box-shadow: 0 0 10px #ddd;
+  // border-radius: 1rem;
+  margin: 0 1rem;
   text-decoration: none;
 
   @include breakpoint-md {
@@ -278,9 +264,10 @@ export default {
   }
 
   &__image {
-    width: 100%;
+    width: 80%;
     height: auto;
-    margin-top: -8rem;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   &__body {

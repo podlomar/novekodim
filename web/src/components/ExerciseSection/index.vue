@@ -80,12 +80,31 @@ export default {
     padding-right: 4rem;
     text-align: right;
   }
+
+  &__body {
+    & > p,
+    & > ul,
+    & > ol,
+    & > dl {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }
+
+  table {
+    tr:nth-child(even) {
+      background-color: #ffe664;
+    }
+  }
 }
 
 .demand {
-  width: 70px;
+  min-width: 70px;
   height: 14px;
   background-size: contain;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 70px 14px;
 
   &--1 {
     background-image: url("./img/demand1.svg");

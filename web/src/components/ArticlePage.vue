@@ -83,15 +83,15 @@ export default {
 .article {
   margin: 0rem 0 6rem 320px;
   padding-top: 2rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 10px #ddd;
   line-height: 150%;
   border-radius: 1rem;
 
-  p,
-  ul,
-  ol,
-  dl {
+  .text-section > p,
+  .text-section > ul,
+  .text-section > ol,
+  .text-section > dl {
     margin-left: 4rem;
     margin-right: 4rem;
   }
@@ -163,6 +163,12 @@ export default {
     }
   }
 
+  em {
+    background-color: $color-textbg-em;
+    padding: 0rem 0.5rem;
+    border-radius: 10px;
+  }
+
   pre,
   code,
   var {
@@ -197,10 +203,24 @@ export default {
   font-style: italic;
   overflow: visible;
 
+  &__icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+    margin-bottom: 2px;
+    margin-right: 0;
+    background-image: url("../assets/img/english.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   &__cs {
     background-color: $color-textbg-em;
-    padding: 0rem 0.5rem;
-    border-radius: 5px;
+    padding: 0rem 0rem 0rem 0.5rem;
+    border-radius: 10px;
+    white-space: pre;
     cursor: default;
   }
 
@@ -213,12 +233,14 @@ export default {
     padding: 0rem 0.5rem;
     border-radius: 5px;
     opacity: 0;
+    visibility: hidden;
     z-index: 1;
     white-space: pre;
-    transition: 400ms;
+    transition: 500ms;
   }
 
   &:hover &__en {
+    visibility: visible;
     opacity: 1;
   }
 }

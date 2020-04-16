@@ -7,8 +7,6 @@ import {
   createRouter
 } from './pages/router.js';
 
-console.log('env', CONTENT_PATH);
-
 const createApp = () => {
   const router = createRouter();
   const app = new Vue({
@@ -47,16 +45,11 @@ const renderer = VueServerRenderer.createRenderer({
 });
 
 const server = Express();
-server.use(Express.static('assets'));
-server.use(
-  '/czechitas/daweb/assets',
-  Express.static(`${CONTENT_PATH}/czechitas/daweb/assets`)
-);
 
 server.get('*', (req, res) => {
   serveApp({
-      url: req.url
-    })
+    url: req.url
+  })
     .then(app => {
       renderer.renderToString(app, (err, html) => {
         if (err) {

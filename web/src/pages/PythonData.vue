@@ -1,7 +1,8 @@
 <template>
   <CoursePage courseTitle="Datová analýza v Pythonu">
     <template v-slot:chapters>
-      <Chapter sectionLink="czechitas" courseLink="python-data" chapterLink="zaklady-pythonu" />
+      <Chapter sectionLink="czechitas" courseLink="python-data" chapterLink="zaklady-programovani" />
+      <Chapter sectionLink="czechitas" courseLink="python-data" chapterLink="datova-analyza" />
     </template>
   </CoursePage>
 </template>

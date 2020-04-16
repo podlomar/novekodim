@@ -4,23 +4,26 @@
       <div class="chapter-link">
         <router-link
           :to="`/${$route.params.sectionLink}/${$route.params.courseLink}`"
-          >{{ content.course.title }}</router-link
-        >
+        >{{ content.course.title }}</router-link>
       </div>
     </template>
 
     <template v-slot:links>
       <div class="article-link article-link--backward" v-if="content.back">
         <div class="arrow-left"></div>
-        <router-link :to="content.back.link">{{
+        <router-link :to="content.back.link">
+          {{
           content.back.title
-        }}</router-link>
+          }}
+        </router-link>
       </div>
       <div class="article-links-filler"></div>
       <div class="article-link article-link--forward" v-if="content.forward">
-        <router-link :to="content.forward.link">{{
+        <router-link :to="content.forward.link">
+          {{
           content.forward.title
-        }}</router-link>
+          }}
+        </router-link>
         <div class="arrow-right"></div>
       </div>
     </template>
@@ -38,18 +41,18 @@
           v-for="tocItem in content.toc"
           :key="tocItem.anchor"
           :href="`#${tocItem.anchor}`"
-          >{{ tocItem.content }}</a
-        >
+        >{{ tocItem.content }}</a>
       </nav>
     </template>
 
     <template v-slot:articleBody>
+      <base
+        :href="
+          `/${$route.params.sectionLink}/${$route.params.courseLink}/${$route.params.chapterLink}/${$route.params.lessonLink}/`
+        "
+      />
       <template v-for="(section, idx) in content.sections">
-        <TextSection
-          v-if="section.type === '@text'"
-          :key="idx"
-          :html="section.html"
-        ></TextSection>
+        <TextSection v-if="section.type === '@text'" :key="idx" :html="section.html"></TextSection>
         <section
           v-if="section.type === '@exercises'"
           :key="idx"
@@ -234,6 +237,14 @@ export default {
   color: white;
 }
 
+.text-section {
+  table {
+    tr:nth-child(even) {
+      background-color: #e8e8e8;
+    }
+  }
+}
+
 .exercises-section {
   background-color: $color-bg-tertiary;
 }
@@ -287,10 +298,6 @@ table {
 
   thead {
     border-bottom: 2px solid #333;
-  }
-
-  tr:nth-child(even) {
-    background-color: #e8e8e8;
   }
 
   td {

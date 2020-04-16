@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.dev.js & docker restart novekodim",
     "build:prod": "BABEL_ENV=production webpack --config webpack.prod.js",
     "watch": "webpack -w --config webpack.dev.js"
   },
@@ -21,12 +21,14 @@
     "markdown-it-container": "^2.0.0",
     "markdown-it-custom-block": "^0.1.1",
     "markdown-it-deflist": "^2.0.3",
+    "markdown-it-emoji": "^1.4.0",
     "markdown-it-front-matter": "^0.1.2",
     "markdown-it-kbd": "^2.0.0",
     "markdown-it-shortcode-tag": "^1.1.0",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "slug": "^2.1.1",
     "vue": "2.6.10",
+    "vue-head": "^2.2.0",
     "vue-router": "^3.1.6",
     "vue-server-renderer": "^2.6.11",
     "yaml": "^1.8.2"

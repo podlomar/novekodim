@@ -48,7 +48,6 @@ module.exports = {
         loader: "file-loader",
         options: {
           outputPath: "assets/img",
-          publicPath: "/img",
           name: "[name]-[hash:6].[ext]"
         }
       }

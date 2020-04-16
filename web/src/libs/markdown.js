@@ -8,9 +8,11 @@ import MarkdownItBlockImage from "markdown-it-block-image";
 import MarkdownItCustomBlock from "markdown-it-custom-block";
 import MarkdownItShortcodeTag from "markdown-it-shortcode-tag";
 import MarkdownItDeflist from "markdown-it-deflist";
+import MarkdownItEmoji from "markdown-it-emoji";
 import YAML from "yaml";
 import hljs from "highlight.js";
 import slug from "slug";
+import path from "path";
 
 slug.defaults.mode = "rfc3986";
 
@@ -50,12 +52,11 @@ hljs.registerLanguage("jscon", hljs => ({
 const createParser = frontMatterCallback => {
   const shortcodes = {
     term: {
-      render: function(attrs) {
-        console.log(attrs);
+      render: function (attrs) {
         return `
           <span class="term">
-            <span class="term__cs">${attrs.cs}</span>
-            <span class="term__en">angl: ${attrs.en}</span>
+            <span class="term__cs">${attrs.cs}<span class="term__icon"></span></span>
+            <span class="term__en">${attrs.en}</span>
           </span>
         `;
       }
@@ -73,8 +74,6 @@ const createParser = frontMatterCallback => {
         }
 
         if (lang === "shell") {
-          console.log(`a${lang}a`);
-          console.log(shlt.highlight(lang, str));
           return shlt.highlight(lang, str);
         }
         return ""; // use external default escaping
@@ -108,6 +107,7 @@ const createParser = frontMatterCallback => {
       // })
       .use(MarkdownItFrontMatter, frontMatterCallback)
       .use(MarkdownItDeflist)
+      .use(MarkdownItEmoji)
   );
 };
 
@@ -128,10 +128,41 @@ export const parseExercise = content => {
   const parser = createParser(fm => {
     const front = YAML.parse(fm);
     result.title = front.title;
-    result.anchor = "exrc-" + slug(front.title);
+    result.anchor = "cvi-" + slug(front.title);
     result.demand = front.demand;
     result.demandText = demands[front.demand - 1];
   });
+
+  parser.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+    const token = tokens[idx];
+    if (token.attrIndex) {
+      const hrefIndex = token.attrIndex('href');
+      const href = token.attrs[hrefIndex][1];
+      if (href.startsWith('..')) {
+        token.attrs[hrefIndex][1] = path.join('_', href);
+      }
+    }
+
+    return self.renderToken(tokens, idx, options);
+  };
+
+  const defaultRender = parser.renderer.rules.image || function (tokens, idx, options, env, self) {
+    return self.renderToken(tokens, idx, options);
+  };
+
+  parser.renderer.rules.image = function (tokens, idx, options, env, self) {
+    const token = tokens[idx];
+    if (token.attrIndex) {
+      const srcIndex = token.attrIndex('src');
+      const src = token.attrs[srcIndex][1];
+
+      if (src.startsWith('..')) {
+        token.attrs[srcIndex][1] = path.join('_', src);
+      }
+    }
+
+    return defaultRender(tokens, idx, options, env, self);
+  };
 
   result.html = parser.render(content);
   return result;
@@ -161,7 +192,6 @@ export const parseLesson = content => {
   let exrcNumStart = 1;
 
   for (let i = 0; i < sections.length; i += 1) {
-    console.log(result.toc);
     const term = sections[i].trim();
     if (term === "") {
       continue;
@@ -207,7 +237,7 @@ export const parseLesson = content => {
 
     result.sections.push({
       type: "@text",
-      html: createParser(() => {}).render(sections[i], {
+      html: createParser(() => { }).render(sections[i], {
         tocCallback: (tocMarkdown, tocArray, tocHtml) => {
           const onlyLevel2 = tocArray.filter(item => item.level === 2);
           result.toc = [...result.toc, ...onlyLevel2];
