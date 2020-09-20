@@ -1,45 +1,45 @@
-import MarkdownIt from "markdown-it";
-import MarkdownItContainer from "markdown-it-container";
-import MarkdownItFrontMatter from "markdown-it-front-matter";
-import MarkdownItAttrs from "markdown-it-attrs";
-import MarkdownItKbd from "markdown-it-kbd";
-import MarkdownItTocAndAnchor from "markdown-it-toc-and-anchor";
-import MarkdownItBlockImage from "markdown-it-block-image";
-import MarkdownItCustomBlock from "markdown-it-custom-block";
-import MarkdownItShortcodeTag from "markdown-it-shortcode-tag";
-import MarkdownItDeflist from "markdown-it-deflist";
-import MarkdownItEmoji from "markdown-it-emoji";
-import YAML from "yaml";
-import hljs from "highlight.js";
-import slug from "slug";
-import path from "path";
+import MarkdownIt from 'markdown-it';
+import MarkdownItContainer from 'markdown-it-container';
+import MarkdownItFrontMatter from 'markdown-it-front-matter';
+import MarkdownItAttrs from 'markdown-it-attrs';
+import MarkdownItKbd from 'markdown-it-kbd';
+import MarkdownItTocAndAnchor from 'markdown-it-toc-and-anchor';
+import MarkdownItBlockImage from 'markdown-it-block-image';
+import MarkdownItCustomBlock from 'markdown-it-custom-block';
+import MarkdownItShortcodeTag from 'markdown-it-shortcode-tag';
+import MarkdownItDeflist from 'markdown-it-deflist';
+import MarkdownItEmoji from 'markdown-it-emoji';
+import YAML from 'yaml';
+import hljs from 'highlight.js';
+import slug from 'slug';
+import path from 'path';
 
-slug.defaults.mode = "rfc3986";
+slug.defaults.mode = 'rfc3986';
 
-hljs.registerLanguage("pycon", hljs => ({
+hljs.registerLanguage('pycon', (hljs) => ({
   contains: [
     {
-      className: "meta",
-      begin: "^>>>",
+      className: 'meta',
+      begin: '^>>>',
       starts: {
-        end: "$",
-        subLanguage: "python"
-      }
-    }
-  ]
+        end: '$',
+        subLanguage: 'python',
+      },
+    },
+  ],
 }));
 
-hljs.registerLanguage("jscon", hljs => ({
+hljs.registerLanguage('jscon', (hljs) => ({
   contains: [
     {
-      className: "meta",
-      begin: "^>",
+      className: 'meta',
+      begin: '^>',
       starts: {
-        end: "$",
-        subLanguage: "javascript"
-      }
-    }
-  ]
+        end: '$',
+        subLanguage: 'javascript',
+      },
+    },
+  ],
 }));
 
 // hljs.addPlugin({
@@ -49,18 +49,31 @@ hljs.registerLanguage("jscon", hljs => ({
 //   }
 // });
 
-const createParser = frontMatterCallback => {
+const createParser = (frontMatterCallback) => {
   const shortcodes = {
     term: {
-      render: function (attrs) {
+      render: function(attrs) {
         return `
           <span class="term">
             <span class="term__cs">${attrs.cs}<span class="term__icon"></span></span>
             <span class="term__en">${attrs.en}</span>
           </span>
         `;
-      }
-    }
+      },
+    },
+    youtube: {
+      render: function(attrs) {
+        return `
+          <div class="video-16-9">
+            <iframe 
+              src="https://www.youtube.com/embed/${attrs.video}" 
+              frameborder="0" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        `;
+      },
+    },
   };
 
   return (
@@ -73,25 +86,25 @@ const createParser = frontMatterCallback => {
           return hljs.highlight(lang, str).value;
         }
 
-        if (lang === "shell") {
+        if (lang === 'shell') {
           return shlt.highlight(lang, str);
         }
-        return ""; // use external default escaping
-      }
+        return ''; // use external default escaping
+      },
     })
       .use(MarkdownItShortcodeTag, shortcodes)
       .use(MarkdownItAttrs)
       .use(MarkdownItKbd)
       .use(MarkdownItTocAndAnchor, {
-        anchorLinkSymbol: "¶",
+        anchorLinkSymbol: '¶',
         tocFirstLevel: 2,
         tocLastLevel: 2,
-        anchorClassName: "anchor",
-        slugify: str => slug(str)
+        anchorClassName: 'anchor',
+        slugify: (str) => slug(str),
       })
       .use(MarkdownItBlockImage, {
-        outputContainer: "div",
-        containerClassName: "block-image"
+        outputContainer: 'div',
+        containerClassName: 'block-image',
       })
       // .use(MarkdownItCustomBlock, {
       //   term(arg) {
@@ -112,28 +125,28 @@ const createParser = frontMatterCallback => {
 };
 
 const demands = [
-  "pohodička",
-  "to dáš",
-  "zapni hlavu",
-  "zavařovačka",
-  "smrt v přímém přenosu"
+  'pohodička',
+  'to dáš',
+  'zapni hlavu',
+  'zavařovačka',
+  'smrt v přímém přenosu',
 ];
 
-export const parseExercise = content => {
+export const parseExercise = (content) => {
   const result = {
     title: null,
-    demand: 1
+    demand: 1,
   };
 
-  const parser = createParser(fm => {
+  const parser = createParser((fm) => {
     const front = YAML.parse(fm);
     result.title = front.title;
-    result.anchor = "cvi-" + slug(front.title);
+    result.anchor = 'cvi-' + slug(front.title);
     result.demand = front.demand;
     result.demandText = demands[front.demand - 1];
   });
 
-  parser.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+  parser.renderer.rules.link_open = function(tokens, idx, options, env, self) {
     const token = tokens[idx];
     if (token.attrIndex) {
       const hrefIndex = token.attrIndex('href');
@@ -146,11 +159,13 @@ export const parseExercise = content => {
     return self.renderToken(tokens, idx, options);
   };
 
-  const defaultRender = parser.renderer.rules.image || function (tokens, idx, options, env, self) {
-    return self.renderToken(tokens, idx, options);
-  };
+  const defaultRender =
+    parser.renderer.rules.image ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
 
-  parser.renderer.rules.image = function (tokens, idx, options, env, self) {
+  parser.renderer.rules.image = function(tokens, idx, options, env, self) {
     const token = tokens[idx];
     if (token.attrIndex) {
       const srcIndex = token.attrIndex('src');
@@ -171,20 +186,20 @@ export const parseExercise = content => {
 const numberExercises = (start, list) => {
   const numbered = list.map((exrc, index) => ({
     num: start + index,
-    link: exrc
+    link: exrc,
   }));
 
   return {
     numbered,
-    last: start + list.length
+    last: start + list.length,
   };
 };
 
-export const parseLesson = content => {
+export const parseLesson = (content) => {
   const result = {
     title: null,
     sections: [],
-    toc: []
+    toc: [],
   };
 
   const sections = content.split(/(@[a-z]+)( [^\]]+)?\[([^\]]*)\]@/s);
@@ -193,11 +208,11 @@ export const parseLesson = content => {
 
   for (let i = 0; i < sections.length; i += 1) {
     const term = sections[i].trim();
-    if (term === "") {
+    if (term === '') {
       continue;
     }
 
-    if (term === "@exercises") {
+    if (term === '@exercises') {
       i += 1;
       let title = sections[i];
       let slugTitle;
@@ -206,14 +221,14 @@ export const parseLesson = content => {
       if (title !== undefined) {
         title = title.trim();
 
-        if (title.startsWith("##")) {
+        if (title.startsWith('##')) {
           title = title.substring(2).trim();
           slugTitle = slug(title);
           level = 2;
           result.toc.push({
             content: title,
             anchor: slugTitle,
-            level
+            level,
           });
         }
       }
@@ -221,7 +236,7 @@ export const parseLesson = content => {
       i += 1;
       const { numbered, last } = numberExercises(
         exrcNumStart,
-        YAML.parse(sections[i])
+        YAML.parse(sections[i]),
       );
       exrcNumStart = last;
 
@@ -230,19 +245,19 @@ export const parseLesson = content => {
         data: numbered,
         title,
         anchor: slugTitle,
-        level
+        level,
       });
       continue;
     }
 
     result.sections.push({
-      type: "@text",
-      html: createParser(() => { }).render(sections[i], {
+      type: '@text',
+      html: createParser(() => {}).render(sections[i], {
         tocCallback: (tocMarkdown, tocArray, tocHtml) => {
-          const onlyLevel2 = tocArray.filter(item => item.level === 2);
+          const onlyLevel2 = tocArray.filter((item) => item.level === 2);
           result.toc = [...result.toc, ...onlyLevel2];
-        }
-      })
+        },
+      }),
     });
   }
 

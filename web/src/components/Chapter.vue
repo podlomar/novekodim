@@ -1,38 +1,54 @@
 <template>
   <div class="chapter">
-    <h2 class="chapter-title">{{ chapter.title }}</h2>
+    <SectionHead :title="chapter.title" :brief="chapter.brief" />
 
-    <div class="lessons">
-      <div class="lesson" v-for="(lesson, index) in chapter.lessons" :key="lesson.link">
-        <router-link append :to="`${chapter.link}/${lesson.link}`">
+    <div class="container">
+      <div class="lessons">
+        <div
+          class="lesson"
+          v-for="(lesson, index) in chapter.lessons"
+          :key="lesson.link"
+        >
           <div class="lesson__head">
             <div class="lesson-num">{{ index + 1 }}</div>
             <h3>{{ lesson.title }}</h3>
           </div>
-          <p>{{ lesson.brief }}</p>
-        </router-link>
+          <div class="lesson__body">
+            <p>{{ lesson.brief }}</p>
+            <router-link
+              append
+              class="btn btn-open"
+              :to="`${chapter.link}/${lesson.link}`"
+              >Otevřít lekci</router-link
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { fetchChapter } from "libs/courses";
+import { fetchChapter } from 'libs/courses';
+import SectionHead from 'components/SectionHead';
 
 export default {
+  components: {
+    SectionHead,
+  },
   props: {
     sectionLink: String,
     courseLink: String,
-    chapterLink: String
+    chapterLink: String,
   },
   serverPrefetch() {
     return fetchChapter(this.sectionLink, this.courseLink, this.chapterLink)
-      .then(chapter => {
+      .then((chapter) => {
         this.chapter = chapter;
-        console.log("chapter", chapter);
+        console.log('chapter', chapter);
       })
-      .catch(err => console.log(err));
-  }
+      .catch((err) => console.log(err));
+  },
 };
 </script>
 
@@ -55,7 +71,7 @@ export default {
 .lessons {
   display: flex;
   flex-direction: column;
-  margin: 0 -1.5rem;
+  margin: 4rem 0;
 
   @include breakpoint-md {
     flex-direction: row;
@@ -64,33 +80,33 @@ export default {
 }
 
 .lesson {
-  background-color: $color-bg-tertiary;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px #ddd;
-  margin: 1.5rem;
-  margin-bottom: 2rem;
-  transition: 400ms;
-  padding: 1.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem;
 
   @include breakpoint-sm {
-    flex: 0 0 calc(50% - 3rem);
+    flex: 0 0 50%;
   }
 
   @include breakpoint-lg {
-    flex: 0 0 calc(33.33% - 3rem);
-  }
-
-  &:hover {
-    transform: scale(1.1);
+    flex: 0 0 33.33%;
   }
 
   &__head {
     display: flex;
     align-items: baseline;
-    margin-left: -2rem;
+  }
 
-    @include breakpoint-sm {
-      margin-left: -4rem;
+  &__body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 4rem;
+
+    p {
+      flex: 1;
     }
   }
 
@@ -98,15 +114,11 @@ export default {
     margin: 0 2rem 0 1rem;
     font-size: 1.2rem;
   }
-
-  a {
-    text-decoration: none;
-  }
 }
 
 .lesson-num {
   flex: 0 0 auto;
-  background-color: white;
+  background-color: #d1e0f1;
   box-shadow: 0 0 10px #ddd;
   width: 3rem;
   height: 3rem;

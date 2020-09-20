@@ -33,12 +33,12 @@
 </template>
 
 <script>
-import Page from "./Page";
+import Page from './Page';
 
 export default {
   components: {
-    Page
-  }
+    Page,
+  },
 };
 </script>
 
@@ -73,20 +73,29 @@ export default {
 }
 
 .aside {
+  display: none;
   width: 320px;
   position: fixed;
   z-index: 1;
   overflow-x: hidden;
   padding-top: 20px;
+
+  @include breakpoint-lg {
+    display: block;
+  }
 }
 
 .article {
-  margin: 0rem 0 6rem 320px;
+  margin: 0rem 0 6rem 0;
+  background-color: white;
   padding-top: 2rem;
-  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 10px #ddd;
   line-height: 150%;
   border-radius: 1rem;
+
+  @include breakpoint-lg {
+    margin: 0rem 0 6rem 320px;
+  }
 
   .text-section > p,
   .text-section > ul,
@@ -172,7 +181,7 @@ export default {
   pre,
   code,
   var {
-    font-family: "Roboto Mono";
+    font-family: 'Roboto Mono';
   }
 
   pre {
@@ -189,11 +198,35 @@ export default {
   }
 
   kbd {
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     background-color: $color-white;
     border: 1px solid $color-gray-8;
     border-radius: 4px;
     padding: 0rem 0.5rem;
+  }
+
+  blockquote {
+    background-color: #f5f5f5;
+    padding: 2rem 4rem 1rem 4rem;
+    margin: 0 0 1rem 0;
+    border-left: 2px solid black;
+  }
+
+  .video-16-9 {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    margin-top: 2rem;
+    background-color: black;
+    position: relative;
+
+    iframe {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
@@ -211,7 +244,7 @@ export default {
     margin-left: 0.5rem;
     margin-bottom: 2px;
     margin-right: 0;
-    background-image: url("../assets/img/english.png");
+    background-image: url('../assets/img/english.png');
     background-size: contain;
     background-repeat: no-repeat;
   }

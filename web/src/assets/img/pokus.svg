@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1600" height="1760" version="1.1" viewBox="0 0 1600 1760" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(0 757)">
-  <g transform="translate(0 -207.3)" fill="#dce7f4">
-   <path transform="translate(0 -549.7)" d="m668.1 0a480 360 0 0 0-28.06 120 480 360 0 0 0 480 360 480 360 0 0 0 480-360 480 360 0 0 0-27.99-120z" style="paint-order:stroke fill markers"/>
-   <path d="m960 450.3a480 360 0 0 1-480 360 480 360 0 0 1-480-360 480 360 0 0 1 480-360 480 360 0 0 1 480 360z" style="paint-order:stroke fill markers"/>
-   <path transform="translate(0 -549.7)" d="m1120 1520a480 360 0 0 0-451.9 240h903.9a480 360 0 0 0-452-240z" style="paint-order:stroke fill markers"/>
-  </g>
- </g>
+<svg width="1600" height="480" version="1.1" viewBox="0 0 1600 480" xmlns="http://www.w3.org/2000/svg">
+ <path transform="rotate(9.162)" d="m1372 92.51c273 117.2-199.1 204.5-393 204.5-193.9 1e-5 -310.7-74.78-310.7-186.4 0-111.7 156-194.2 347.6-223.9 382.4-59.35 178.5 129.6 356.1 205.8z" fill="#dce7f4" style="paint-order:normal"/>
 </svg>

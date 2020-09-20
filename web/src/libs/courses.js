@@ -29,6 +29,10 @@ export const fetchCoursesList = (section) => {
   return loadYaml(`/content/${section}/index.yaml`);
 }
 
+export const fetchCourse = (section, course) => {
+  return loadYaml(`/content/${section}/${course}/index.yaml`);
+}
+
 export const fetchChapter = (section, course, chapter) => {
   return loadYaml(
     `/content/${section}/${course}/${chapter}/index.yaml`

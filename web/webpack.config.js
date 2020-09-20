@@ -1,4 +1,5 @@
 const { VueLoaderPlugin } = require("vue-loader");
+const WebpackShellPlugin = require('webpack-shell-plugin');
 const path = require("path");
 
 module.exports = {
@@ -53,5 +54,11 @@ module.exports = {
       }
     ]
   },
-  plugins: [new VueLoaderPlugin()]
+  plugins: [
+    new VueLoaderPlugin(),
+    new WebpackShellPlugin({
+      dev: false,
+      onBuildEnd: ['docker restart nove.kodim'],
+    }),
+  ],
 };

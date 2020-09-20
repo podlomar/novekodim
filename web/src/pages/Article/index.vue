@@ -4,7 +4,8 @@
       <div class="chapter-link">
         <router-link
           :to="`/${$route.params.sectionLink}/${$route.params.courseLink}`"
-        >{{ content.course.title }}</router-link>
+          >{{ content.course.title }}</router-link
+        >
       </div>
     </template>
 
@@ -12,17 +13,13 @@
       <div class="article-link article-link--backward" v-if="content.back">
         <div class="arrow-left"></div>
         <router-link :to="content.back.link">
-          {{
-          content.back.title
-          }}
+          {{ content.back.title }}
         </router-link>
       </div>
       <div class="article-links-filler"></div>
       <div class="article-link article-link--forward" v-if="content.forward">
         <router-link :to="content.forward.link">
-          {{
-          content.forward.title
-          }}
+          {{ content.forward.title }}
         </router-link>
         <div class="arrow-right"></div>
       </div>
@@ -41,7 +38,8 @@
           v-for="tocItem in content.toc"
           :key="tocItem.anchor"
           :href="`#${tocItem.anchor}`"
-        >{{ tocItem.content }}</a>
+          >{{ tocItem.content }}</a
+        >
       </nav>
     </template>
 
@@ -52,7 +50,11 @@
         "
       />
       <template v-for="(section, idx) in content.sections">
-        <TextSection v-if="section.type === '@text'" :key="idx" :html="section.html"></TextSection>
+        <TextSection
+          v-if="section.type === '@text'"
+          :key="idx"
+          :html="section.html"
+        ></TextSection>
         <section
           v-if="section.type === '@exercises'"
           :key="idx"
@@ -90,35 +92,35 @@
 </template>
 
 <script>
-import { fetchLesson } from "libs/courses";
-import ArticlePage from "components/ArticlePage";
-import TextSection from "components/TextSection";
-import ExerciseSection from "components/ExerciseSection";
+import { fetchLesson } from 'libs/courses';
+import ArticlePage from 'components/ArticlePage';
+import TextSection from 'components/TextSection';
+import ExerciseSection from 'components/ExerciseSection';
 
 export default {
-  name: "Article",
+  name: 'Article',
   components: {
     ArticlePage,
     TextSection,
-    ExerciseSection
+    ExerciseSection,
   },
   serverPrefetch() {
     return fetchLesson(
       this.$route.params.sectionLink,
       this.$route.params.courseLink,
       this.$route.params.chapterLink,
-      this.$route.params.lessonLink
+      this.$route.params.lessonLink,
     )
-      .then(content => {
+      .then((content) => {
         this.content = content;
       })
-      .catch(err => console.log(err));
-  }
+      .catch((err) => console.log(err));
+  },
 };
 </script>
 
 <style lang="scss">
-@import "highlight.js/scss/gml.scss";
+@import 'highlight.js/scss/gml.scss';
 
 @mixin button {
   background-color: $color-bg-tertiary;
@@ -135,12 +137,12 @@ export default {
 
 .arrow-left {
   @include button;
-  background-image: url("img/arrow-left.svg");
+  background-image: url('img/arrow-left.svg');
 }
 
 .arrow-right {
   @include button;
-  background-image: url("img/arrow-right.svg");
+  background-image: url('img/arrow-right.svg');
 }
 
 .chapter-link {

@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <header>
-      <Navbar/>
+      <Navbar />
       <slot name="header"></slot>
     </header>
     <main class="main">
@@ -35,6 +35,6 @@ export default {
 
 .footer {
   padding: 2rem 0;
-  background-color: #acd6e2;
+  background-color: #dce7f4;
 }
 </style>

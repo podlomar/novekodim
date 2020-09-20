@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.dev.js & docker restart novekodim",
+    "build": "webpack --config webpack.dev.js",
     "build:prod": "BABEL_ENV=production webpack --config webpack.prod.js",
     "watch": "webpack -w --config webpack.dev.js"
   },
@@ -50,6 +50,7 @@
     "vue-template-compiler": "2.6.10",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
-    "webpack-merge": "^4.2.2"
+    "webpack-merge": "^4.2.2",
+    "webpack-shell-plugin": "^0.5.0"
   }
 }

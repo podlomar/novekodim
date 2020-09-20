@@ -48,31 +48,17 @@
           </div>
         </div>
       </div>
-      <div class="courses-section">
-        <div class="courses container">
-          <div class="courses__info">
-            <h2>Czechitas</h2>
-            <p>
-              Kurzy pořádané ve spolupráci s Czechitas, kteří pomáhají holkám,
-              ženám i dětem poznat svět informačních technologií.
-            </p>
-          </div>
-
-          <div class="courses__list">
-            <router-link
-              class="course-card"
-              v-for="course in courses"
-              :key="course.link"
-              :to="`/czechitas/${course.link}`"
-            >
-              <img class="course-card__image" :src="courseImages[course.link]" />
-              <div class="course-card__body">
-                <h3>{{ course.title }}</h3>
-                <p>{{ course.brief }}</p>
-              </div>
-            </router-link>
-          </div>
-        </div>
+      <SectionHead title="Czechitas">
+        Kurzy pořádané ve spolupráci s Czechitas, kteří pomáhají holkám,
+        ženám i dětem poznat svět informačních technologií.
+      </SectionHead>
+      <div class="courses container">
+        <Course
+          v-for="course in courses"
+          sectionLink="czechitas"
+          :courseLink="course"
+          :key="course.link"
+        />
       </div>
     </template>
   </Page>
@@ -81,26 +67,23 @@
 <script>
 import { fetchCoursesList } from "libs/courses";
 import Page from "components/Page";
+import SectionHead from "components/SectionHead";
+import Course from "components/Course";
 import image1 from "../assets/img/playfulness.svg";
 import image2 from "../assets/img/safety.svg";
 import image3 from "../assets/img/knowledge.svg";
 
-import course1 from "../assets/img/daweb.svg";
-import course2 from "../assets/img/python-data.svg";
-
 export default {
   name: "Home",
   components: {
-    Page
+    Page,
+    SectionHead,
+    Course
   },
   serverPrefetch() {
     this.image1 = image1;
     this.image2 = image2;
     this.image3 = image3;
-    this.courseImages = {
-      daweb: course1,
-      "python-data": course2
-    };
 
     return fetchCoursesList("czechitas")
       .then(data => (this.courses = data))
@@ -113,6 +96,7 @@ export default {
 .banner {
   display: flex;
   flex-direction: column;
+
   @include breakpoint-md {
     flex-direction: row;
   }
@@ -142,27 +126,22 @@ export default {
   &__graphic {
     width: 100%;
     height: 0;
-    padding-bottom: 62%;
+    padding-bottom: 55.55%;
+    background-image: url("../assets/img/coding.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 
     @include breakpoint-md {
-      text-align: left;
-      padding-right: 2rem;
-      width: $container-md * 2 / 3;
-      height: $container-md * 2 / 3 * 0.62;
+      margin-left: 2rem;
+      flex: 0 0 $container-md * 0.8;
+      height: $container-md * 0.8 * 0.5555;
       padding-bottom: 0;
     }
 
     @include breakpoint-lg {
-      width: $container-lg * 2 / 3;
-      height: $container-lg * 2 / 3 * 0.62;
+      flex: 0 0 $container-lg * 0.8;
+      height: $container-lg * 0.8 * 0.5555;
     }
-
-    // width: 640px;
-    // height: 397px;
-
-    background-image: url("../assets/img/coding.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
   }
 }
 
@@ -210,73 +189,11 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 
   @include breakpoint-md {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  &__info {
-    text-align: center;
-    max-width: 30rem;
-    padding: 1rem 2rem;
-    // padding-right: 2rem;
-    background-color: $color-bg-tertiary;
-    border-radius: 1rem;
-    box-shadow: 0 0 10px #ddd;
-
-    @include breakpoint-md {
-      flex: 0 0 33.333%;
-      text-align: left;
-      // padding-left: 0;
-      // padding-right: 1rem;
-    }
-  }
-
-  &__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-
-    @include breakpoint-md {
-      flex: 0 0 66.666%;
-      flex-direction: row;
-      align-items: stretch;
-    }
-  }
-}
-
-.course-card {
-  flex: 1;
-  max-width: 20rem;
-  // background-color: white;
-  // box-shadow: 0 0 10px #ddd;
-  // border-radius: 1rem;
-  margin: 0 1rem;
-  text-decoration: none;
-
-  @include breakpoint-md {
-    margin-bottom: 1rem;
-  }
-
-  &__image {
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  &__body {
-    padding: 0 2rem 2rem 2rem;
-    margin-top: -1rem;
-
-    h3 {
-      margin: 0;
-    }
+    flex-flow: row wrap;
+    align-items: stretch;
   }
 }
 </style>
