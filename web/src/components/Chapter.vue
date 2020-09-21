@@ -45,7 +45,6 @@ export default {
     return fetchChapter(this.sectionLink, this.courseLink, this.chapterLink)
       .then((chapter) => {
         this.chapter = chapter;
-        console.log('chapter', chapter);
       })
       .catch((err) => console.log(err));
   },

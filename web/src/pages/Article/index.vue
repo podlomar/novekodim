@@ -12,13 +12,21 @@
     <template v-slot:links>
       <div class="article-link article-link--backward" v-if="content.back">
         <div class="arrow-left"></div>
-        <router-link :to="content.back.link">
+        <router-link
+          :to="
+            `/${$route.params.sectionLink}/${$route.params.courseLink}/${$route.params.chapterLink}/${content.back.link}`
+          "
+        >
           {{ content.back.title }}
         </router-link>
       </div>
       <div class="article-links-filler"></div>
       <div class="article-link article-link--forward" v-if="content.forward">
-        <router-link :to="content.forward.link">
+        <router-link
+          :to="
+            `/${$route.params.sectionLink}/${$route.params.courseLink}/${$route.params.chapterLink}/${content.forward.link}`
+          "
+        >
           {{ content.forward.title }}
         </router-link>
         <div class="arrow-right"></div>

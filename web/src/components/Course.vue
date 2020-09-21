@@ -1,30 +1,34 @@
 <template>
   <div class="course-card">
-    <img class="course-card__image" :src="`/czechitas/assets/${courseLink}.svg`" />
+    <img
+      class="course-card__image"
+      :src="`/czechitas/assets/${courseLink}.svg`"
+    />
     <div class="course-card__body">
       <h3>{{ course.title }}</h3>
       <p>{{ course.brief }}</p>
-      <router-link class="btn btn-open" :to="`/czechitas/${courseLink}`">Přejít na kurz</router-link>
+      <router-link class="btn btn-open" :to="`/czechitas/${courseLink}`"
+        >Přejít na kurz</router-link
+      >
     </div>
   </div>
 </template>
 
 <script>
-import { fetchCourse } from "libs/courses";
+import { fetchCourse } from 'libs/courses';
 
 export default {
   props: {
     sectionLink: String,
-    courseLink: String
+    courseLink: String,
   },
   serverPrefetch() {
     return fetchCourse(this.sectionLink, this.courseLink)
-      .then(course => {
+      .then((course) => {
         this.course = course;
-        console.log("course", course);
       })
-      .catch(err => console.log(err));
-  }
+      .catch((err) => console.log(err));
+  },
 };
 </script>
 

@@ -132,7 +132,7 @@ const demands = [
   'smrt v přímém přenosu',
 ];
 
-export const parseExercise = (content) => {
+export const parseExercise = (link, content) => {
   const result = {
     title: null,
     demand: 1,
@@ -141,7 +141,7 @@ export const parseExercise = (content) => {
   const parser = createParser((fm) => {
     const front = YAML.parse(fm);
     result.title = front.title;
-    result.anchor = 'cvi-' + slug(front.title);
+    result.anchor = 'exc-' + slug(front.title);
     result.demand = front.demand;
     result.demandText = demands[front.demand - 1];
   });
@@ -151,8 +151,8 @@ export const parseExercise = (content) => {
     if (token.attrIndex) {
       const hrefIndex = token.attrIndex('href');
       const href = token.attrs[hrefIndex][1];
-      if (href.startsWith('..')) {
-        token.attrs[hrefIndex][1] = path.join('_', href);
+      if (href.startsWith('assets/')) {
+        token.attrs[hrefIndex][1] = path.join('excs', link, href);
       }
     }
 
@@ -171,8 +171,8 @@ export const parseExercise = (content) => {
       const srcIndex = token.attrIndex('src');
       const src = token.attrs[srcIndex][1];
 
-      if (src.startsWith('..')) {
-        token.attrs[srcIndex][1] = path.join('_', src);
+      if (src.startsWith('assets/')) {
+        token.attrs[srcIndex][1] = path.join('excs', link, src);
       }
     }
 

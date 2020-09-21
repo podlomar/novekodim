@@ -4,12 +4,14 @@
       <div class="container">
         <div class="course-banner">
           <div class="course-banner__lead">
-            <h1>{{course.title}}</h1>
-            <p>{{course.brief}}</p>
+            <h1>{{ course.title }}</h1>
+            <p>{{ course.brief }}</p>
           </div>
           <img
             class="course-banner__image"
-            :src="`/${$route.params.sectionLink}/assets/${$route.params.courseLink}.svg`"
+            :src="
+              `/${$route.params.sectionLink}/assets/${$route.params.courseLink}.svg`
+            "
           />
         </div>
       </div>
@@ -28,26 +30,25 @@
 </template>
 
 <script>
-import Page from "components/Page";
-import Chapter from "components/Chapter";
-import { fetchCourse } from "libs/courses";
+import Page from 'components/Page';
+import Chapter from 'components/Chapter';
+import { fetchCourse } from 'libs/courses';
 
 export default {
   components: {
     Page,
-    Chapter
+    Chapter,
   },
   serverPrefetch() {
     return fetchCourse(
       this.$route.params.sectionLink,
-      this.$route.params.courseLink
+      this.$route.params.courseLink,
     )
-      .then(data => {
+      .then((data) => {
         this.course = data;
-        console.log(data);
       })
-      .catch(err => console.log(err));
-  }
+      .catch((err) => console.log(err));
+  },
 };
 </script>
 
